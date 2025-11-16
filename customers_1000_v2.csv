@@ -1,0 +1,1001 @@
+msisdn,name,age,gender,region,city,occupation,marital_status,income_bracket,device_brand,device_type,hobby,preferred_app,data_preference,voice_preference,churn_risk_score
+9990020000,Harish V,27,M,West,Pune,Teacher,Single,low,Samsung,Galaxy A34,Reading,YouTube,High,Low,0.26
+9990020001,Naveen R,56,M,South,Hyderabad,Sales Executive,Single,medium,Xiaomi,Mi 11,Browsing,YouTube,Low,Medium,0.27
+9990020002,Rita N,40,F,South,Bengaluru,Sales Executive,Married,low,Realme,8 Pro,Reading,PUBG,Medium,Medium,0.2
+9990020003,Kiran P,23,M,East,Patna,Manager,Single,medium,Samsung,Galaxy S21,Social Media,Netflix,Medium,High,0.46
+9990020004,Rita V,32,F,East,Kolkata,Student,Married,medium,Realme,8 Pro,Browsing,Instagram,Low,High,0.35
+9990020005,Rita G,40,M,South,Hyderabad,Consultant,Married,high,Xiaomi,Mi 11,Browsing,Netflix,Medium,Medium,0.15
+9990020006,Sneha R,54,M,East,Patna,Manager,Single,medium,Realme,9i,Travel,Chrome,Medium,Medium,0.11
+9990020007,Suresh S,34,M,East,Patna,Sales Executive,Single,low,Samsung,Galaxy A34,Browsing,Netflix,Low,Medium,0.44
+9990020008,Ravi P,18,M,South,Bengaluru,Consultant,Single,medium,Realme,8 Pro,Reading,PUBG,High,High,0.12
+9990020009,Arun N,39,M,South,Bengaluru,Teacher,Single,high,Xiaomi,Redmi 10,Music,Instagram,Low,High,0.43
+9990020010,Sneha P,58,M,North,Chandigarh,Designer,Married,medium,OnePlus,8T,Social Media,Instagram,High,Low,0.36
+9990020011,Anu T,53,F,South,Chennai,Designer,Married,high,Samsung,A52,Social Media,Netflix,High,Medium,0.08
+9990020012,Vijay N,51,M,North,Jaipur,Manager,Single,high,Samsung,A52,Social Media,Netflix,High,Medium,0.12
+9990020013,Manoj R,54,F,South,Bengaluru,Student,Single,high,Realme,9i,Streaming,Netflix,Low,Medium,0.36
+9990020014,Vijay T,21,F,South,Bengaluru,Designer,Single,high,Apple,iPhone 15,Travel,PUBG,Medium,Medium,0.45
+9990020015,Kavya N,42,F,South,Chennai,Student,Single,high,Apple,iPhone 14,Gaming,Chrome,Medium,High,0.15
+9990020016,Vijay R,53,M,South,Hyderabad,Designer,Married,medium,Xiaomi,Mi 11,Gaming,YouTube,High,Low,0.13
+9990020017,Rita M,19,F,South,Coimbatore,Manager,Single,low,OnePlus,9 Pro,Social Media,PUBG,High,Medium,0.45
+9990020018,Meera L,20,F,North,Delhi,Student,Single,low,Realme,8 Pro,Travel,Chrome,Medium,Medium,0.3
+9990020019,Rohit G,19,F,West,Surat,Teacher,Single,low,Realme,9i,Social Media,Chrome,Medium,Low,0.12
+9990020020,Meera K,45,M,West,Ahmedabad,Student,Single,medium,OnePlus,8T,Browsing,YouTube,Low,High,0.23
+9990020021,Rohit K,22,F,East,Patna,Engineer,Married,low,Realme,9i,Music,YouTube,High,Low,0.36
+9990020022,Ravi N,23,M,North,Lucknow,Teacher,Single,low,Samsung,Galaxy A34,Gaming,Chrome,Low,High,0.05
+9990020023,Priya T,44,M,South,Hyderabad,Consultant,Married,low,Xiaomi,Redmi 10,Social Media,YouTube,Medium,Low,0.33
+9990020024,Anita R,34,F,West,Mumbai,Manager,Single,low,OnePlus,9 Pro,Gaming,YouTube,High,Medium,0.47
+9990020025,Kavya P,42,F,East,Ranchi,Sales Executive,Married,high,Xiaomi,Redmi 12,Browsing,YouTube,High,High,0.14
+9990020026,Priya M,44,M,West,Mumbai,Engineer,Single,medium,Xiaomi,Redmi 12,Gaming,Netflix,High,High,0.26
+9990020027,Kavya V,24,F,South,Coimbatore,Student,Married,high,Xiaomi,Redmi 10,Social Media,YouTube,High,High,0.17
+9990020028,Vijay P,60,M,South,Coimbatore,Engineer,Married,medium,Apple,iPhone 14,Music,Chrome,High,Medium,0.28
+9990020029,Priya M,45,F,South,Hyderabad,Teacher,Married,medium,Xiaomi,Mi 11,Browsing,PUBG,Low,Low,0.41
+9990020030,Vijay M,26,F,South,Hyderabad,Designer,Married,low,Samsung,Galaxy A34,Social Media,YouTube,Medium,Low,0.26
+9990020031,Suresh N,19,M,North,Jaipur,Sales Executive,Married,high,Realme,9i,Browsing,YouTube,High,Medium,0.13
+9990020032,Dinesh R,60,M,East,Ranchi,Designer,Single,medium,OnePlus,Nord 2,Reading,PUBG,Low,Medium,0.18
+9990020033,Meera V,25,F,North,Lucknow,Manager,Single,high,Samsung,Galaxy A34,Travel,YouTube,Medium,Medium,0.33
+9990020034,Rohit N,52,F,North,Delhi,Student,Single,medium,OnePlus,Nord 2,Gaming,PUBG,High,Medium,0.41
+9990020035,Vijay L,35,F,East,Kolkata,Engineer,Single,low,Realme,9i,Social Media,PUBG,High,Low,0.47
+9990020036,Rita V,30,F,West,Surat,Engineer,Married,high,Samsung,Galaxy S21,Gaming,Netflix,Medium,High,0.32
+9990020037,Rita N,53,F,North,Delhi,Designer,Married,medium,Samsung,A52,Travel,YouTube,Low,Medium,0.28
+9990020038,Ravi R,58,F,South,Bengaluru,Sales Executive,Married,high,Apple,iPhone 11,Browsing,Instagram,High,High,0.2
+9990020039,Anu R,35,F,West,Surat,Manager,Single,low,Samsung,Galaxy A34,Reading,Netflix,Medium,High,0.35
+9990020040,Rita N,24,F,East,Bhubaneswar,Engineer,Married,high,Apple,iPhone 12,Social Media,Instagram,High,Low,0.35
+9990020041,Arun N,39,M,North,Lucknow,Consultant,Married,low,Samsung,Galaxy S22,Browsing,Chrome,Medium,Medium,0.2
+9990020042,Dinesh L,46,M,East,Ranchi,Engineer,Married,high,Xiaomi,Redmi 12,Music,Instagram,High,High,0.09
+9990020043,Latha P,52,F,West,Mumbai,Manager,Single,low,Xiaomi,Redmi 10,Music,Netflix,Low,Medium,0.27
+9990020044,Vijay G,35,F,North,Delhi,Manager,Married,high,Xiaomi,Redmi 10,Music,Chrome,Medium,Medium,0.16
+9990020045,Arun L,35,M,West,Mumbai,Engineer,Single,low,OnePlus,Nord 2,Gaming,YouTube,Low,Low,0.17
+9990020046,Latha P,50,M,North,Lucknow,Manager,Married,medium,Xiaomi,Mi 11,Gaming,Chrome,Medium,High,0.5
+9990020047,Suresh V,21,F,West,Pune,Designer,Married,low,Realme,9i,Music,YouTube,Low,Medium,0.35
+9990020048,Meera T,32,M,North,Delhi,Engineer,Single,medium,Xiaomi,Redmi 12,Travel,PUBG,Medium,Medium,0.47
+9990020049,Kiran N,55,M,North,Lucknow,Designer,Married,high,Xiaomi,Redmi 10,Reading,Chrome,Medium,Low,0.2
+9990020050,Harish L,22,M,North,Chandigarh,Doctor,Married,medium,Realme,8 Pro,Gaming,PUBG,Medium,Medium,0.35
+9990020051,Rita G,31,F,West,Ahmedabad,Student,Married,low,Apple,iPhone 13,Social Media,Netflix,Low,High,0.27
+9990020052,Harish N,34,F,East,Patna,Student,Single,high,Realme,9i,Music,YouTube,Low,Low,0.44
+9990020053,Divya R,58,M,West,Ahmedabad,Engineer,Married,high,Apple,iPhone 14,Streaming,Chrome,Low,Medium,0.48
+9990020054,Manoj R,45,F,East,Bhubaneswar,Designer,Single,low,Samsung,Galaxy A34,Gaming,YouTube,High,High,0.19
+9990020055,Kavya R,19,M,North,Chandigarh,Designer,Married,high,Apple,iPhone 14,Reading,PUBG,Low,Low,0.2
+9990020056,Anita P,20,M,East,Kolkata,Engineer,Married,low,Samsung,A52,Travel,Instagram,Low,Medium,0.06
+9990020057,Ravi T,23,M,East,Kolkata,Sales Executive,Single,high,OnePlus,8T,Social Media,Netflix,Medium,Medium,0.24
+9990020058,Suresh V,30,F,West,Mumbai,Student,Married,medium,Realme,9i,Social Media,Chrome,High,Medium,0.24
+9990020059,Anita L,30,M,North,Lucknow,Doctor,Single,medium,Realme,8 Pro,Social Media,PUBG,Low,High,0.19
+9990020060,Latha M,60,M,South,Bengaluru,Teacher,Married,medium,OnePlus,8T,Music,PUBG,Low,Medium,0.17
+9990020061,Anu P,31,M,East,Bhubaneswar,Sales Executive,Single,high,Xiaomi,Mi 11,Reading,Instagram,Low,Medium,0.13
+9990020062,Shalini M,46,M,North,Chandigarh,Manager,Married,low,Realme,9i,Travel,YouTube,Low,Low,0.16
+9990020063,Naveen P,32,F,East,Bhubaneswar,Engineer,Married,medium,OnePlus,8T,Reading,PUBG,Low,Medium,0.13
+9990020064,Suresh T,55,M,West,Surat,Doctor,Married,medium,Realme,8 Pro,Streaming,Chrome,Medium,High,0.24
+9990020065,Rohit V,50,M,North,Chandigarh,Consultant,Married,high,OnePlus,9 Pro,Travel,Instagram,High,Low,0.07
+9990020066,Sneha R,27,M,North,Jaipur,Teacher,Single,low,Samsung,Galaxy A34,Browsing,Chrome,Medium,High,0.15
+9990020067,Priya K,54,M,East,Patna,Engineer,Single,medium,Samsung,A52,Reading,Instagram,High,Medium,0.21
+9990020068,Priya P,57,F,West,Surat,Teacher,Single,low,Apple,iPhone 12,Streaming,PUBG,High,Medium,0.28
+9990020069,Dinesh M,24,M,East,Kolkata,Teacher,Single,medium,OnePlus,Nord 2,Browsing,Instagram,High,Medium,0.38
+9990020070,Arun N,29,M,North,Lucknow,Consultant,Single,high,Xiaomi,Redmi 10,Streaming,PUBG,Low,Low,0.4
+9990020071,Latha S,37,F,East,Patna,Engineer,Married,high,OnePlus,8T,Gaming,Chrome,Medium,Medium,0.35
+9990020072,Kiran N,31,M,South,Hyderabad,Teacher,Married,medium,Apple,iPhone 13,Music,PUBG,Medium,Low,0.25
+9990020073,Vijay G,26,F,West,Mumbai,Engineer,Single,low,Apple,iPhone 13,Social Media,YouTube,High,Low,0.44
+9990020074,Vijay P,48,F,North,Jaipur,Sales Executive,Married,medium,Apple,iPhone 14,Social Media,Instagram,High,Medium,0.19
+9990020075,Kiran T,49,M,North,Chandigarh,Sales Executive,Married,low,Realme,9i,Browsing,Chrome,Medium,High,0.21
+9990020076,Manoj P,47,F,North,Delhi,Sales Executive,Married,high,OnePlus,9 Pro,Social Media,Chrome,High,High,0.33
+9990020077,Divya T,20,F,North,Jaipur,Doctor,Single,high,Realme,9i,Reading,PUBG,High,High,0.18
+9990020078,Shalini V,53,F,South,Coimbatore,Manager,Single,medium,Samsung,Galaxy S21,Gaming,PUBG,Medium,Medium,0.44
+9990020079,Manoj T,32,M,East,Ranchi,Sales Executive,Single,medium,Realme,8 Pro,Reading,YouTube,Medium,Medium,0.42
+9990020080,Kavya V,23,M,East,Ranchi,Student,Single,medium,Samsung,Galaxy A34,Social Media,Netflix,Low,High,0.35
+9990020081,Harish G,24,M,West,Surat,Manager,Married,medium,Samsung,A52,Gaming,Netflix,High,High,0.42
+9990020082,Latha L,41,F,North,Chandigarh,Student,Single,medium,Xiaomi,Redmi 12,Reading,Instagram,High,Low,0.32
+9990020083,Shalini S,20,M,North,Jaipur,Designer,Single,high,Xiaomi,Redmi 12,Social Media,YouTube,Low,Low,0.27
+9990020084,Sneha K,53,F,East,Bhubaneswar,Student,Married,high,Xiaomi,Redmi 12,Gaming,YouTube,High,High,0.19
+9990020085,Manoj M,20,M,East,Patna,Engineer,Married,low,Apple,iPhone 11,Streaming,Chrome,Medium,Medium,0.1
+9990020086,Sneha N,32,F,West,Mumbai,Doctor,Married,low,Realme,9i,Music,Instagram,Medium,Low,0.14
+9990020087,Suresh T,37,F,East,Kolkata,Sales Executive,Married,low,Apple,iPhone 13,Gaming,YouTube,Medium,Medium,0.12
+9990020088,Kavya N,44,M,East,Ranchi,Student,Single,medium,Apple,iPhone 14,Streaming,YouTube,High,Medium,0.44
+9990020089,Vijay R,37,M,South,Hyderabad,Manager,Married,high,Realme,9i,Gaming,YouTube,Medium,Medium,0.42
+9990020090,Kavya V,59,F,East,Ranchi,Student,Single,low,Apple,iPhone 13,Gaming,PUBG,Medium,Low,0.3
+9990020091,Ravi S,60,F,West,Pune,Manager,Single,medium,Xiaomi,Mi 11,Browsing,Netflix,Low,High,0.17
+9990020092,Anita M,20,M,East,Kolkata,Sales Executive,Single,medium,Realme,8 Pro,Social Media,Instagram,Low,Low,0.35
+9990020093,Rohit R,36,M,East,Bhubaneswar,Student,Single,low,Realme,8 Pro,Music,Instagram,Low,Medium,0.5
+9990020094,Kiran T,30,M,South,Bengaluru,Sales Executive,Married,medium,Realme,8 Pro,Social Media,Netflix,High,Low,0.25
+9990020095,Kavya M,56,F,West,Surat,Doctor,Married,high,Apple,iPhone 13,Gaming,Chrome,High,High,0.23
+9990020096,Rita V,60,M,North,Jaipur,Manager,Single,low,Realme,8 Pro,Gaming,Netflix,High,Medium,0.31
+9990020097,Arun N,40,M,South,Bengaluru,Doctor,Married,high,Xiaomi,Redmi 10,Social Media,YouTube,Medium,Medium,0.39
+9990020098,Kiran V,59,M,North,Delhi,Doctor,Single,high,Apple,iPhone 15,Travel,Instagram,Low,Low,0.06
+9990020099,Anita P,34,M,East,Ranchi,Teacher,Single,low,Xiaomi,Redmi 10,Gaming,Netflix,Medium,High,0.22
+9990020100,Manoj M,57,M,East,Kolkata,Doctor,Single,medium,Xiaomi,Redmi 10,Gaming,YouTube,Medium,Medium,0.29
+9990020101,Anu K,41,M,East,Ranchi,Student,Single,high,Apple,iPhone 11,Streaming,YouTube,Low,Low,0.29
+9990020102,Anu S,22,M,North,Lucknow,Manager,Married,high,Realme,8 Pro,Social Media,Netflix,High,Medium,0.29
+9990020103,Suresh G,59,F,South,Hyderabad,Teacher,Married,low,OnePlus,8T,Browsing,PUBG,Low,Low,0.42
+9990020104,Latha G,44,F,East,Bhubaneswar,Consultant,Married,high,OnePlus,8T,Reading,Instagram,High,High,0.26
+9990020105,Divya S,43,M,East,Patna,Engineer,Married,medium,OnePlus,9 Pro,Gaming,Netflix,Low,High,0.19
+9990020106,Anu G,29,M,South,Chennai,Engineer,Married,medium,Apple,iPhone 12,Streaming,PUBG,Medium,Medium,0.27
+9990020107,Arun P,19,F,East,Bhubaneswar,Manager,Married,high,Xiaomi,Redmi 10,Streaming,YouTube,Medium,Low,0.06
+9990020108,Anita T,37,M,West,Surat,Doctor,Married,medium,Samsung,Galaxy S22,Browsing,Netflix,High,Low,0.07
+9990020109,Rohit R,33,M,North,Lucknow,Doctor,Married,medium,Apple,iPhone 11,Streaming,Chrome,Medium,High,0.05
+9990020110,Ravi S,43,F,South,Hyderabad,Student,Single,medium,Samsung,Galaxy S22,Browsing,YouTube,High,Low,0.21
+9990020111,Anita K,43,F,South,Bengaluru,Manager,Married,low,Realme,9i,Reading,Chrome,Medium,Medium,0.29
+9990020112,Vijay N,53,M,East,Bhubaneswar,Engineer,Married,medium,Samsung,Galaxy S21,Streaming,YouTube,Medium,Low,0.35
+9990020113,Suresh S,46,M,South,Hyderabad,Student,Single,medium,OnePlus,Nord 2,Streaming,Instagram,Medium,Medium,0.34
+9990020114,Harish R,42,M,West,Surat,Consultant,Single,medium,Xiaomi,Redmi 10,Music,Netflix,High,High,0.12
+9990020115,Kavya P,30,F,East,Kolkata,Sales Executive,Married,low,Apple,iPhone 12,Travel,Chrome,Low,Low,0.49
+9990020116,Meera R,46,F,East,Patna,Student,Married,medium,Xiaomi,Redmi 12,Music,PUBG,Medium,Low,0.11
+9990020117,Anita G,21,M,South,Bengaluru,Student,Married,medium,Samsung,Galaxy S22,Gaming,Instagram,Low,High,0.27
+9990020118,Divya L,40,F,West,Ahmedabad,Manager,Married,high,OnePlus,9 Pro,Music,PUBG,High,High,0.08
+9990020119,Latha M,40,M,East,Patna,Engineer,Married,high,OnePlus,Nord 2,Reading,Netflix,High,High,0.35
+9990020120,Kavya S,43,F,East,Bhubaneswar,Engineer,Married,high,Xiaomi,Redmi 12,Travel,YouTube,Low,Medium,0.31
+9990020121,Dinesh M,21,F,West,Pune,Consultant,Married,high,Samsung,Galaxy S22,Browsing,Instagram,Medium,Low,0.23
+9990020122,Rohit S,57,F,North,Delhi,Student,Single,low,Samsung,Galaxy A34,Social Media,YouTube,Low,High,0.15
+9990020123,Divya M,32,M,West,Ahmedabad,Designer,Married,medium,Apple,iPhone 12,Social Media,PUBG,Medium,Low,0.28
+9990020124,Priya S,59,M,East,Bhubaneswar,Sales Executive,Single,medium,Apple,iPhone 15,Travel,YouTube,Low,Low,0.23
+9990020125,Rohit P,30,F,West,Surat,Teacher,Married,medium,Samsung,A52,Reading,Instagram,High,Low,0.42
+9990020126,Manoj V,46,F,East,Patna,Sales Executive,Single,low,Realme,8 Pro,Travel,Chrome,Low,High,0.34
+9990020127,Vijay G,24,F,South,Bengaluru,Designer,Married,low,Samsung,Galaxy S21,Browsing,Netflix,Medium,High,0.07
+9990020128,Priya K,32,F,North,Delhi,Consultant,Married,high,Samsung,Galaxy S21,Reading,Netflix,Medium,Medium,0.35
+9990020129,Kiran K,33,M,West,Ahmedabad,Consultant,Married,high,Apple,iPhone 13,Browsing,Instagram,High,High,0.34
+9990020130,Vijay L,25,F,West,Mumbai,Teacher,Married,low,Xiaomi,Redmi 10,Music,Netflix,High,Medium,0.25
+9990020131,Vijay K,43,M,East,Kolkata,Teacher,Married,high,Samsung,Galaxy S22,Gaming,Instagram,Medium,Low,0.07
+9990020132,Rita S,48,F,East,Ranchi,Manager,Married,medium,Samsung,Galaxy A34,Gaming,YouTube,High,Medium,0.2
+9990020133,Ravi S,25,M,North,Chandigarh,Doctor,Married,medium,Apple,iPhone 11,Streaming,Instagram,High,Low,0.25
+9990020134,Vijay K,21,M,West,Mumbai,Student,Single,medium,Apple,iPhone 11,Streaming,Chrome,High,High,0.44
+9990020135,Meera S,34,F,North,Lucknow,Doctor,Married,medium,OnePlus,9 Pro,Browsing,Instagram,Low,High,0.38
+9990020136,Naveen L,20,F,North,Delhi,Manager,Single,low,Samsung,Galaxy S21,Streaming,Netflix,Medium,High,0.45
+9990020137,Suresh S,46,F,East,Kolkata,Teacher,Single,high,Realme,8 Pro,Travel,Chrome,High,Low,0.16
+9990020138,Anu P,46,M,South,Hyderabad,Designer,Married,medium,Realme,9i,Social Media,Chrome,Low,Low,0.23
+9990020139,Rita R,22,F,South,Coimbatore,Consultant,Single,low,Samsung,A52,Streaming,YouTube,Low,Low,0.24
+9990020140,Sneha L,31,M,West,Pune,Teacher,Single,high,Apple,iPhone 12,Social Media,Chrome,High,Medium,0.05
+9990020141,Naveen R,25,F,East,Patna,Designer,Single,high,Apple,iPhone 13,Gaming,PUBG,Low,Medium,0.42
+9990020142,Sneha P,41,F,West,Pune,Engineer,Single,high,Samsung,Galaxy A34,Streaming,PUBG,Medium,Low,0.36
+9990020143,Divya K,34,F,South,Bengaluru,Designer,Married,low,Samsung,Galaxy S22,Social Media,YouTube,Medium,Medium,0.1
+9990020144,Harish V,45,F,North,Delhi,Sales Executive,Single,medium,Realme,9i,Browsing,Instagram,Low,Low,0.06
+9990020145,Anu N,27,M,East,Bhubaneswar,Manager,Married,low,OnePlus,9 Pro,Reading,PUBG,Low,Medium,0.46
+9990020146,Latha K,53,M,North,Chandigarh,Student,Single,medium,Samsung,Galaxy S22,Gaming,PUBG,Low,Low,0.23
+9990020147,Arun N,58,F,West,Pune,Doctor,Married,low,Samsung,A52,Music,YouTube,High,Low,0.15
+9990020148,Kavya K,60,F,West,Mumbai,Designer,Single,medium,Xiaomi,Mi 11,Travel,Chrome,High,Medium,0.11
+9990020149,Priya V,39,M,West,Pune,Teacher,Single,low,Apple,iPhone 14,Streaming,Chrome,High,High,0.46
+9990020150,Priya L,35,M,South,Hyderabad,Doctor,Married,low,Samsung,Galaxy A34,Reading,Netflix,Medium,High,0.29
+9990020151,Anu P,56,M,East,Ranchi,Student,Married,high,Samsung,Galaxy S22,Browsing,YouTube,Low,Low,0.49
+9990020152,Anita T,30,F,South,Chennai,Sales Executive,Married,low,Samsung,Galaxy A34,Gaming,Instagram,High,High,0.18
+9990020153,Shalini P,46,F,West,Pune,Doctor,Single,medium,OnePlus,9 Pro,Travel,Chrome,Medium,High,0.06
+9990020154,Suresh T,38,F,North,Chandigarh,Teacher,Married,medium,Xiaomi,Redmi 12,Social Media,YouTube,Medium,High,0.49
+9990020155,Ravi S,58,M,West,Mumbai,Consultant,Single,low,OnePlus,9 Pro,Travel,PUBG,Medium,Low,0.3
+9990020156,Harish V,41,F,West,Pune,Designer,Married,low,Samsung,Galaxy A34,Social Media,Chrome,Low,Low,0.29
+9990020157,Anita P,29,M,South,Chennai,Engineer,Married,high,Samsung,Galaxy A34,Social Media,Netflix,High,Low,0.21
+9990020158,Latha K,27,F,West,Mumbai,Designer,Single,medium,Apple,iPhone 11,Gaming,Instagram,Medium,Low,0.41
+9990020159,Shalini R,20,M,North,Lucknow,Teacher,Single,low,Realme,9i,Music,Instagram,Medium,Low,0.06
+9990020160,Rita N,59,M,East,Patna,Designer,Single,low,Realme,8 Pro,Reading,Netflix,High,High,0.09
+9990020161,Manoj P,29,M,West,Pune,Manager,Married,low,OnePlus,9 Pro,Gaming,YouTube,Medium,High,0.25
+9990020162,Kavya M,23,M,East,Bhubaneswar,Sales Executive,Married,medium,Xiaomi,Redmi 10,Music,PUBG,High,Low,0.34
+9990020163,Anita M,56,M,East,Patna,Student,Married,low,Xiaomi,Mi 11,Music,Instagram,Low,Medium,0.47
+9990020164,Anu P,58,F,West,Mumbai,Teacher,Single,low,Samsung,Galaxy A34,Music,Netflix,High,Low,0.05
+9990020165,Dinesh L,59,M,West,Ahmedabad,Teacher,Single,high,Apple,iPhone 11,Music,YouTube,High,Medium,0.1
+9990020166,Suresh M,36,M,East,Ranchi,Sales Executive,Single,low,Realme,9i,Streaming,PUBG,Low,Medium,0.19
+9990020167,Anita N,53,M,South,Bengaluru,Engineer,Single,high,OnePlus,9 Pro,Gaming,Chrome,Low,Medium,0.25
+9990020168,Arun P,56,F,East,Patna,Consultant,Single,high,OnePlus,9 Pro,Music,Netflix,Low,High,0.31
+9990020169,Priya G,52,F,South,Chennai,Manager,Single,medium,Samsung,Galaxy A34,Browsing,Netflix,High,Low,0.17
+9990020170,Anita M,52,F,East,Patna,Engineer,Single,low,Realme,8 Pro,Music,Chrome,Medium,Low,0.46
+9990020171,Harish P,36,F,North,Chandigarh,Teacher,Single,high,Samsung,Galaxy S21,Browsing,Chrome,Medium,High,0.25
+9990020172,Arun M,55,M,West,Pune,Student,Married,medium,Realme,8 Pro,Music,Netflix,Medium,High,0.1
+9990020173,Ravi G,51,F,North,Chandigarh,Designer,Single,low,OnePlus,8T,Travel,Netflix,Low,Low,0.06
+9990020174,Naveen R,35,M,North,Chandigarh,Consultant,Single,medium,OnePlus,8T,Browsing,Instagram,Low,Medium,0.15
+9990020175,Ravi R,48,F,East,Kolkata,Doctor,Married,low,Samsung,Galaxy S22,Gaming,YouTube,High,Low,0.09
+9990020176,Sneha V,51,M,North,Chandigarh,Teacher,Married,low,Samsung,Galaxy A34,Gaming,Netflix,Medium,High,0.22
+9990020177,Anita N,50,M,South,Coimbatore,Manager,Single,high,Samsung,A52,Gaming,Instagram,High,Low,0.06
+9990020178,Suresh R,39,M,East,Ranchi,Student,Single,low,Realme,8 Pro,Reading,Netflix,Low,High,0.05
+9990020179,Naveen N,18,F,North,Chandigarh,Engineer,Married,medium,Realme,8 Pro,Browsing,PUBG,High,Medium,0.06
+9990020180,Priya R,41,M,North,Lucknow,Manager,Married,low,Apple,iPhone 13,Reading,YouTube,High,Medium,0.23
+9990020181,Divya V,40,M,North,Delhi,Manager,Single,medium,Apple,iPhone 12,Travel,Netflix,High,Low,0.37
+9990020182,Priya S,53,F,West,Ahmedabad,Manager,Married,high,Realme,8 Pro,Music,Instagram,Medium,Medium,0.39
+9990020183,Arun T,42,F,North,Lucknow,Designer,Married,high,OnePlus,9 Pro,Streaming,Instagram,High,Medium,0.49
+9990020184,Rita T,54,F,East,Ranchi,Manager,Married,high,Apple,iPhone 15,Music,Chrome,High,High,0.4
+9990020185,Sneha M,52,F,North,Chandigarh,Doctor,Married,high,Xiaomi,Mi 11,Travel,Chrome,Medium,Low,0.19
+9990020186,Ravi G,52,M,North,Jaipur,Manager,Single,medium,OnePlus,9 Pro,Travel,Instagram,High,Medium,0.22
+9990020187,Harish M,49,F,East,Patna,Consultant,Single,high,Apple,iPhone 12,Browsing,YouTube,Medium,Low,0.25
+9990020188,Kavya M,43,F,West,Surat,Sales Executive,Married,high,OnePlus,9 Pro,Browsing,Chrome,Medium,Low,0.12
+9990020189,Latha K,30,M,South,Bengaluru,Designer,Single,medium,Xiaomi,Redmi 12,Gaming,YouTube,High,Low,0.16
+9990020190,Suresh S,25,F,West,Ahmedabad,Student,Married,low,Apple,iPhone 15,Travel,Chrome,Low,Low,0.12
+9990020191,Dinesh K,59,F,South,Coimbatore,Sales Executive,Married,medium,Samsung,Galaxy A34,Travel,Instagram,Medium,High,0.29
+9990020192,Dinesh R,44,F,North,Chandigarh,Sales Executive,Single,medium,Xiaomi,Redmi 10,Browsing,PUBG,Low,Low,0.49
+9990020193,Anita T,52,M,West,Ahmedabad,Sales Executive,Single,medium,Realme,9i,Browsing,YouTube,Medium,High,0.38
+9990020194,Naveen S,55,F,West,Ahmedabad,Designer,Single,high,Apple,iPhone 15,Music,Chrome,Medium,High,0.08
+9990020195,Harish N,52,F,West,Mumbai,Engineer,Single,low,Apple,iPhone 12,Browsing,PUBG,Low,Low,0.31
+9990020196,Latha R,33,F,West,Ahmedabad,Designer,Married,medium,Samsung,Galaxy A34,Social Media,YouTube,High,High,0.33
+9990020197,Vijay L,18,M,South,Bengaluru,Designer,Married,high,Realme,9i,Reading,YouTube,Medium,High,0.45
+9990020198,Shalini S,44,M,North,Jaipur,Designer,Single,high,Apple,iPhone 12,Streaming,Netflix,Medium,Medium,0.12
+9990020199,Divya V,19,F,North,Jaipur,Consultant,Married,high,Xiaomi,Redmi 12,Travel,Netflix,Medium,High,0.45
+9990020200,Meera K,21,F,West,Surat,Designer,Married,low,Apple,iPhone 11,Reading,Chrome,Low,Low,0.42
+9990020201,Kavya G,31,F,East,Bhubaneswar,Manager,Single,high,Samsung,A52,Social Media,PUBG,High,High,0.26
+9990020202,Kavya R,58,F,East,Kolkata,Manager,Married,medium,Apple,iPhone 11,Reading,Instagram,Medium,High,0.12
+9990020203,Rita T,25,M,West,Surat,Engineer,Married,high,Samsung,Galaxy S21,Reading,Netflix,High,Low,0.42
+9990020204,Suresh M,26,M,North,Jaipur,Engineer,Married,medium,Samsung,A52,Streaming,Netflix,Low,Medium,0.47
+9990020205,Suresh K,42,M,North,Jaipur,Designer,Married,medium,Samsung,Galaxy S22,Music,Chrome,Medium,Medium,0.23
+9990020206,Rita N,31,M,West,Surat,Teacher,Single,low,Xiaomi,Redmi 10,Travel,PUBG,Low,Medium,0.3
+9990020207,Rohit N,29,M,East,Patna,Teacher,Married,high,Apple,iPhone 15,Browsing,Instagram,Medium,High,0.39
+9990020208,Dinesh S,22,M,South,Coimbatore,Engineer,Single,high,Apple,iPhone 12,Reading,Netflix,Medium,Medium,0.13
+9990020209,Meera S,24,F,East,Kolkata,Manager,Married,high,Realme,8 Pro,Browsing,Netflix,High,Low,0.19
+9990020210,Meera R,26,F,East,Patna,Doctor,Single,medium,OnePlus,9 Pro,Music,Chrome,High,Low,0.42
+9990020211,Manoj L,59,F,West,Ahmedabad,Student,Married,medium,Samsung,Galaxy A34,Reading,Netflix,Low,Low,0.05
+9990020212,Sneha M,55,M,West,Pune,Engineer,Married,high,Samsung,A52,Browsing,Netflix,Low,High,0.25
+9990020213,Kiran K,37,M,East,Kolkata,Manager,Single,medium,Apple,iPhone 15,Gaming,Instagram,Low,Low,0.41
+9990020214,Manoj L,36,F,North,Delhi,Sales Executive,Single,high,Apple,iPhone 11,Reading,Instagram,Low,Medium,0.42
+9990020215,Sneha T,22,M,East,Kolkata,Engineer,Married,medium,OnePlus,9 Pro,Browsing,YouTube,Low,High,0.07
+9990020216,Priya P,53,F,West,Mumbai,Engineer,Single,low,Xiaomi,Redmi 10,Gaming,Chrome,High,Low,0.3
+9990020217,Meera L,44,M,South,Coimbatore,Teacher,Married,high,OnePlus,Nord 2,Streaming,Netflix,High,High,0.46
+9990020218,Arun G,20,F,North,Delhi,Teacher,Married,low,Realme,8 Pro,Gaming,PUBG,High,High,0.08
+9990020219,Rohit T,57,F,East,Kolkata,Doctor,Single,medium,Samsung,Galaxy S22,Gaming,PUBG,Medium,Medium,0.1
+9990020220,Naveen R,42,F,North,Delhi,Doctor,Married,high,Apple,iPhone 14,Reading,YouTube,Low,Medium,0.31
+9990020221,Suresh S,44,M,East,Kolkata,Consultant,Married,high,Samsung,A52,Travel,Netflix,Medium,High,0.5
+9990020222,Priya M,29,F,South,Bengaluru,Manager,Married,low,Samsung,A52,Social Media,YouTube,Medium,High,0.07
+9990020223,Suresh T,51,F,West,Mumbai,Student,Single,low,Realme,9i,Travel,Instagram,Low,Medium,0.29
+9990020224,Sneha R,49,M,West,Pune,Doctor,Single,high,Realme,9i,Travel,PUBG,Medium,High,0.44
+9990020225,Naveen N,60,M,West,Surat,Designer,Married,low,Xiaomi,Redmi 12,Browsing,PUBG,High,Low,0.33
+9990020226,Rohit R,23,F,North,Delhi,Consultant,Single,high,Samsung,A52,Browsing,Instagram,Medium,Low,0.45
+9990020227,Vijay S,31,M,North,Lucknow,Consultant,Married,high,Samsung,Galaxy S22,Browsing,Netflix,Medium,Low,0.08
+9990020228,Manoj P,45,M,West,Pune,Teacher,Single,high,Apple,iPhone 13,Music,Netflix,Low,Low,0.21
+9990020229,Anita P,59,M,West,Ahmedabad,Student,Single,high,Xiaomi,Redmi 10,Music,PUBG,Medium,High,0.36
+9990020230,Arun T,56,F,East,Patna,Designer,Single,medium,Xiaomi,Redmi 12,Browsing,Netflix,Medium,Medium,0.29
+9990020231,Vijay M,45,F,East,Kolkata,Teacher,Single,medium,Realme,8 Pro,Streaming,PUBG,High,High,0.42
+9990020232,Kiran M,33,M,North,Delhi,Sales Executive,Married,medium,Apple,iPhone 15,Gaming,PUBG,Medium,Low,0.14
+9990020233,Anita N,56,F,West,Mumbai,Designer,Married,medium,Realme,9i,Reading,Chrome,Low,Low,0.14
+9990020234,Priya L,26,M,North,Jaipur,Designer,Married,low,Realme,9i,Travel,YouTube,High,Medium,0.19
+9990020235,Priya M,40,M,South,Bengaluru,Engineer,Single,low,OnePlus,8T,Travel,Instagram,Low,Medium,0.13
+9990020236,Rita K,51,F,West,Surat,Student,Married,medium,Realme,8 Pro,Browsing,Netflix,High,High,0.32
+9990020237,Priya K,53,F,East,Kolkata,Doctor,Single,high,Apple,iPhone 14,Reading,YouTube,Low,High,0.4
+9990020238,Priya K,32,F,North,Delhi,Consultant,Single,low,Realme,8 Pro,Social Media,Netflix,Medium,High,0.45
+9990020239,Rita T,59,M,North,Delhi,Teacher,Married,low,Apple,iPhone 15,Social Media,Netflix,Low,High,0.1
+9990020240,Kiran M,21,F,West,Ahmedabad,Manager,Married,low,Xiaomi,Redmi 12,Streaming,Instagram,High,Low,0.14
+9990020241,Harish T,21,M,East,Kolkata,Consultant,Single,medium,Xiaomi,Redmi 10,Browsing,PUBG,Medium,Low,0.46
+9990020242,Manoj S,23,M,East,Kolkata,Consultant,Single,low,Apple,iPhone 15,Streaming,PUBG,Medium,High,0.35
+9990020243,Harish S,45,M,South,Hyderabad,Teacher,Single,high,Samsung,A52,Browsing,PUBG,Low,Medium,0.14
+9990020244,Shalini P,56,F,South,Coimbatore,Sales Executive,Single,low,Apple,iPhone 12,Browsing,PUBG,Low,Low,0.27
+9990020245,Anita L,47,M,North,Chandigarh,Designer,Married,high,Realme,8 Pro,Social Media,PUBG,Medium,High,0.31
+9990020246,Shalini R,32,M,West,Ahmedabad,Engineer,Married,medium,Samsung,Galaxy S21,Social Media,Chrome,High,Low,0.25
+9990020247,Sneha M,58,F,South,Bengaluru,Sales Executive,Married,low,Samsung,A52,Reading,Instagram,Low,Low,0.19
+9990020248,Anita V,24,F,North,Chandigarh,Designer,Married,high,Samsung,A52,Streaming,YouTube,Low,High,0.49
+9990020249,Ravi R,21,F,West,Surat,Student,Single,low,Xiaomi,Mi 11,Streaming,Netflix,Medium,High,0.15
+9990020250,Dinesh N,26,M,North,Jaipur,Student,Single,low,Samsung,Galaxy A34,Browsing,Netflix,Low,High,0.45
+9990020251,Latha T,45,F,East,Ranchi,Engineer,Single,medium,Realme,9i,Browsing,Instagram,Medium,Low,0.21
+9990020252,Manoj P,50,M,North,Delhi,Consultant,Married,medium,Apple,iPhone 12,Social Media,PUBG,Medium,Low,0.14
+9990020253,Meera V,53,M,South,Bengaluru,Sales Executive,Single,low,Apple,iPhone 13,Browsing,Chrome,Low,Low,0.21
+9990020254,Meera T,28,M,South,Chennai,Manager,Single,high,Apple,iPhone 11,Music,Instagram,Medium,High,0.1
+9990020255,Anita L,48,M,North,Jaipur,Designer,Single,high,Xiaomi,Redmi 12,Browsing,YouTube,High,Low,0.4
+9990020256,Suresh N,45,M,West,Surat,Manager,Married,medium,Samsung,A52,Gaming,PUBG,Low,Medium,0.45
+9990020257,Dinesh G,50,F,West,Pune,Designer,Single,high,OnePlus,8T,Music,YouTube,Medium,Medium,0.48
+9990020258,Dinesh T,34,M,North,Delhi,Designer,Single,high,OnePlus,8T,Streaming,Chrome,Low,Low,0.2
+9990020259,Arun S,32,F,East,Bhubaneswar,Consultant,Married,high,Realme,9i,Browsing,PUBG,Medium,High,0.21
+9990020260,Latha R,38,M,South,Coimbatore,Student,Married,high,OnePlus,8T,Social Media,PUBG,Low,Medium,0.29
+9990020261,Dinesh T,53,F,South,Coimbatore,Student,Married,high,Samsung,Galaxy S21,Music,PUBG,High,High,0.29
+9990020262,Kavya L,21,F,North,Jaipur,Consultant,Single,medium,Apple,iPhone 13,Social Media,PUBG,High,Medium,0.47
+9990020263,Meera G,35,M,East,Ranchi,Teacher,Single,medium,Apple,iPhone 14,Travel,PUBG,High,Low,0.48
+9990020264,Kiran R,50,M,East,Ranchi,Student,Married,low,Apple,iPhone 14,Gaming,Netflix,Medium,High,0.29
+9990020265,Naveen L,37,M,South,Bengaluru,Doctor,Single,medium,Samsung,Galaxy S21,Streaming,Netflix,High,Low,0.2
+9990020266,Meera N,35,F,North,Lucknow,Sales Executive,Single,medium,Samsung,Galaxy S22,Browsing,PUBG,Low,High,0.07
+9990020267,Ravi L,32,M,South,Bengaluru,Designer,Married,high,OnePlus,Nord 2,Social Media,Chrome,High,High,0.06
+9990020268,Rita T,55,M,South,Coimbatore,Teacher,Single,low,Samsung,Galaxy S21,Browsing,Instagram,Low,High,0.18
+9990020269,Suresh M,33,F,East,Bhubaneswar,Teacher,Married,medium,OnePlus,8T,Gaming,PUBG,Low,Medium,0.13
+9990020270,Rita K,43,F,North,Chandigarh,Designer,Married,low,Xiaomi,Mi 11,Social Media,PUBG,Medium,Medium,0.27
+9990020271,Ravi N,37,F,East,Ranchi,Manager,Single,medium,Realme,8 Pro,Browsing,YouTube,High,Medium,0.42
+9990020272,Anita G,30,M,East,Patna,Doctor,Single,high,Samsung,Galaxy S21,Browsing,Netflix,Medium,High,0.18
+9990020273,Sneha T,54,M,North,Delhi,Student,Single,high,Apple,iPhone 14,Browsing,Instagram,High,High,0.48
+9990020274,Ravi N,45,M,South,Hyderabad,Student,Single,low,Apple,iPhone 13,Gaming,Instagram,High,High,0.26
+9990020275,Kiran S,45,F,South,Bengaluru,Manager,Married,low,Samsung,Galaxy S22,Social Media,Instagram,Medium,Low,0.3
+9990020276,Rita V,54,F,East,Ranchi,Teacher,Married,low,OnePlus,Nord 2,Gaming,Netflix,Low,Medium,0.46
+9990020277,Shalini G,57,F,West,Mumbai,Doctor,Married,medium,Xiaomi,Mi 11,Music,Netflix,Low,Low,0.18
+9990020278,Naveen N,48,F,North,Jaipur,Teacher,Married,medium,Samsung,Galaxy S22,Social Media,Instagram,High,Low,0.42
+9990020279,Priya R,54,F,West,Ahmedabad,Designer,Single,low,Realme,9i,Social Media,YouTube,High,Medium,0.24
+9990020280,Arun M,49,M,West,Ahmedabad,Designer,Married,medium,Xiaomi,Redmi 12,Reading,Chrome,High,Low,0.49
+9990020281,Divya K,37,F,West,Pune,Sales Executive,Married,low,Realme,8 Pro,Social Media,PUBG,Medium,High,0.07
+9990020282,Anu R,42,M,North,Delhi,Manager,Married,low,OnePlus,9 Pro,Browsing,PUBG,Low,Medium,0.34
+9990020283,Rohit V,35,M,East,Ranchi,Teacher,Single,medium,Realme,8 Pro,Music,Netflix,High,High,0.42
+9990020284,Shalini T,43,F,South,Bengaluru,Student,Married,medium,Realme,9i,Streaming,PUBG,High,Medium,0.33
+9990020285,Manoj T,53,M,North,Lucknow,Sales Executive,Single,low,OnePlus,9 Pro,Reading,Chrome,High,Medium,0.15
+9990020286,Kiran L,24,M,West,Surat,Consultant,Single,high,Samsung,Galaxy A34,Music,PUBG,Low,Low,0.36
+9990020287,Kiran G,31,F,West,Pune,Engineer,Single,low,Samsung,Galaxy S21,Gaming,Netflix,Medium,Medium,0.19
+9990020288,Harish V,43,F,North,Chandigarh,Doctor,Single,medium,Xiaomi,Redmi 12,Browsing,YouTube,High,Medium,0.08
+9990020289,Anu P,36,M,East,Bhubaneswar,Doctor,Single,high,Realme,9i,Reading,Instagram,Low,Medium,0.24
+9990020290,Manoj M,44,F,East,Bhubaneswar,Consultant,Single,low,Apple,iPhone 11,Streaming,PUBG,Medium,Medium,0.3
+9990020291,Shalini P,55,F,South,Hyderabad,Doctor,Married,high,Samsung,Galaxy A34,Music,Instagram,Low,Low,0.14
+9990020292,Dinesh V,41,M,North,Lucknow,Sales Executive,Married,high,Samsung,Galaxy S21,Browsing,PUBG,Medium,Low,0.37
+9990020293,Kiran V,60,F,East,Patna,Consultant,Single,low,Realme,8 Pro,Browsing,Netflix,Low,Low,0.19
+9990020294,Vijay T,38,F,North,Jaipur,Engineer,Married,low,OnePlus,Nord 2,Browsing,Netflix,Low,High,0.26
+9990020295,Manoj K,51,F,North,Jaipur,Engineer,Single,medium,Apple,iPhone 13,Gaming,YouTube,Low,Low,0.47
+9990020296,Anu S,57,M,West,Surat,Sales Executive,Single,low,Samsung,Galaxy S22,Gaming,YouTube,High,High,0.29
+9990020297,Divya L,32,M,East,Kolkata,Doctor,Married,low,Samsung,A52,Reading,PUBG,High,High,0.09
+9990020298,Rita S,30,F,South,Hyderabad,Teacher,Single,medium,OnePlus,Nord 2,Browsing,PUBG,Low,Medium,0.4
+9990020299,Priya K,50,F,West,Mumbai,Engineer,Single,low,Apple,iPhone 12,Music,Instagram,High,Medium,0.32
+9990020300,Divya T,55,M,East,Ranchi,Engineer,Single,low,Realme,9i,Reading,PUBG,Low,High,0.28
+9990020301,Manoj R,45,M,South,Hyderabad,Teacher,Married,low,OnePlus,Nord 2,Travel,YouTube,High,Low,0.49
+9990020302,Naveen N,18,F,East,Bhubaneswar,Engineer,Married,low,Samsung,A52,Browsing,Instagram,High,High,0.29
+9990020303,Anita P,20,M,West,Ahmedabad,Manager,Single,medium,OnePlus,Nord 2,Social Media,YouTube,Low,Low,0.31
+9990020304,Latha P,59,M,North,Lucknow,Teacher,Single,medium,Samsung,Galaxy S22,Reading,Netflix,Low,Low,0.29
+9990020305,Kiran R,51,F,North,Lucknow,Teacher,Married,medium,Apple,iPhone 12,Gaming,Netflix,Medium,Low,0.24
+9990020306,Naveen L,34,F,East,Ranchi,Sales Executive,Married,low,Samsung,Galaxy S21,Music,Netflix,High,Medium,0.14
+9990020307,Divya S,22,M,North,Lucknow,Designer,Single,medium,Samsung,A52,Gaming,Chrome,Low,Medium,0.31
+9990020308,Harish V,42,M,North,Chandigarh,Student,Single,high,Samsung,Galaxy S22,Browsing,Netflix,Low,High,0.21
+9990020309,Kiran P,24,M,South,Hyderabad,Teacher,Single,medium,Apple,iPhone 11,Social Media,YouTube,High,Low,0.31
+9990020310,Rohit G,59,M,North,Delhi,Engineer,Married,low,Xiaomi,Redmi 12,Streaming,PUBG,Low,Low,0.18
+9990020311,Harish T,43,M,East,Bhubaneswar,Student,Single,high,Samsung,Galaxy S22,Music,Netflix,Low,Low,0.25
+9990020312,Naveen R,48,F,West,Pune,Designer,Single,high,Apple,iPhone 11,Music,Netflix,Low,Medium,0.42
+9990020313,Rohit S,32,M,North,Jaipur,Teacher,Single,low,Realme,8 Pro,Browsing,Netflix,Low,Low,0.07
+9990020314,Vijay G,58,F,North,Delhi,Student,Single,medium,OnePlus,8T,Music,Instagram,High,Low,0.2
+9990020315,Kiran K,35,M,East,Bhubaneswar,Sales Executive,Married,high,Samsung,Galaxy S21,Streaming,Instagram,High,Medium,0.22
+9990020316,Rita G,38,F,East,Patna,Doctor,Single,high,Apple,iPhone 13,Travel,Netflix,Medium,Medium,0.21
+9990020317,Priya T,58,M,North,Chandigarh,Sales Executive,Married,low,Apple,iPhone 14,Reading,YouTube,Medium,Medium,0.29
+9990020318,Harish M,56,F,West,Pune,Engineer,Single,medium,Realme,8 Pro,Travel,Netflix,High,Medium,0.34
+9990020319,Harish V,33,M,West,Ahmedabad,Sales Executive,Single,medium,Xiaomi,Redmi 10,Travel,Instagram,Low,High,0.32
+9990020320,Manoj K,28,F,West,Surat,Designer,Married,high,OnePlus,8T,Travel,YouTube,Low,Medium,0.26
+9990020321,Harish T,27,F,East,Ranchi,Teacher,Married,low,Xiaomi,Redmi 10,Travel,YouTube,Medium,Medium,0.42
+9990020322,Priya L,32,M,West,Ahmedabad,Student,Single,medium,Samsung,Galaxy A34,Gaming,Chrome,High,Low,0.09
+9990020323,Kiran K,36,M,West,Mumbai,Manager,Married,medium,Realme,8 Pro,Travel,Instagram,Low,Medium,0.25
+9990020324,Rohit K,46,M,North,Lucknow,Manager,Single,low,Xiaomi,Redmi 12,Browsing,Instagram,Medium,Low,0.18
+9990020325,Kiran N,59,F,East,Ranchi,Sales Executive,Married,medium,Xiaomi,Redmi 12,Reading,Chrome,Medium,Low,0.24
+9990020326,Rita S,29,M,South,Chennai,Teacher,Married,high,Samsung,Galaxy A34,Streaming,Chrome,High,Medium,0.07
+9990020327,Meera K,19,F,South,Hyderabad,Doctor,Married,high,OnePlus,Nord 2,Reading,Instagram,Low,Medium,0.3
+9990020328,Dinesh L,36,F,North,Lucknow,Student,Married,medium,OnePlus,Nord 2,Music,YouTube,Low,Low,0.39
+9990020329,Anita K,53,F,West,Ahmedabad,Sales Executive,Single,low,Samsung,Galaxy A34,Streaming,YouTube,Low,Low,0.36
+9990020330,Ravi P,60,F,East,Patna,Sales Executive,Married,high,Xiaomi,Redmi 12,Gaming,PUBG,Low,High,0.32
+9990020331,Rita L,28,M,South,Coimbatore,Doctor,Married,low,Realme,8 Pro,Reading,Instagram,Medium,High,0.49
+9990020332,Sneha R,24,F,South,Hyderabad,Sales Executive,Single,low,Realme,8 Pro,Streaming,Instagram,Medium,Low,0.48
+9990020333,Anu R,23,M,South,Bengaluru,Manager,Married,low,Apple,iPhone 14,Browsing,YouTube,High,Low,0.48
+9990020334,Shalini T,24,M,South,Chennai,Engineer,Single,high,Apple,iPhone 15,Music,Netflix,High,Low,0.13
+9990020335,Meera L,40,M,West,Ahmedabad,Consultant,Single,high,Realme,8 Pro,Social Media,Chrome,High,High,0.14
+9990020336,Latha V,51,F,West,Ahmedabad,Manager,Married,medium,Realme,9i,Social Media,YouTube,Low,Medium,0.39
+9990020337,Arun L,40,M,West,Pune,Designer,Married,medium,Xiaomi,Mi 11,Gaming,Chrome,Low,High,0.28
+9990020338,Harish T,40,M,South,Hyderabad,Designer,Married,low,Realme,9i,Gaming,YouTube,Medium,Low,0.41
+9990020339,Anu P,41,F,North,Jaipur,Consultant,Married,medium,Apple,iPhone 14,Music,PUBG,High,High,0.11
+9990020340,Divya M,60,F,South,Hyderabad,Teacher,Single,high,OnePlus,8T,Travel,Instagram,Low,Low,0.18
+9990020341,Sneha P,29,M,South,Chennai,Doctor,Single,low,Samsung,Galaxy A34,Travel,Chrome,Medium,Low,0.08
+9990020342,Kiran T,34,M,South,Bengaluru,Designer,Married,high,OnePlus,8T,Social Media,Instagram,Low,Low,0.12
+9990020343,Rita L,47,F,West,Pune,Teacher,Single,high,Xiaomi,Mi 11,Music,YouTube,High,Medium,0.17
+9990020344,Dinesh N,55,M,East,Bhubaneswar,Teacher,Single,high,Apple,iPhone 15,Reading,PUBG,High,Low,0.44
+9990020345,Anu K,27,M,West,Ahmedabad,Student,Single,medium,Apple,iPhone 13,Reading,Chrome,Low,Medium,0.4
+9990020346,Kiran V,22,F,West,Surat,Sales Executive,Single,high,Samsung,A52,Browsing,Netflix,Low,Medium,0.16
+9990020347,Anu V,39,F,East,Kolkata,Sales Executive,Single,medium,Apple,iPhone 12,Reading,YouTube,High,Low,0.13
+9990020348,Naveen V,52,F,North,Jaipur,Student,Single,medium,Realme,9i,Travel,PUBG,Medium,Low,0.17
+9990020349,Dinesh G,51,M,West,Pune,Doctor,Single,high,OnePlus,8T,Travel,PUBG,Medium,Low,0.4
+9990020350,Suresh K,41,M,South,Coimbatore,Doctor,Single,high,Apple,iPhone 13,Streaming,YouTube,Low,Low,0.49
+9990020351,Anita N,52,M,East,Kolkata,Consultant,Married,high,Apple,iPhone 14,Gaming,PUBG,Low,Medium,0.38
+9990020352,Kiran N,46,M,North,Chandigarh,Sales Executive,Single,medium,Xiaomi,Mi 11,Travel,Instagram,Medium,High,0.39
+9990020353,Meera P,28,M,East,Patna,Engineer,Single,high,Apple,iPhone 13,Streaming,Instagram,Medium,High,0.1
+9990020354,Suresh R,30,F,West,Ahmedabad,Doctor,Single,medium,OnePlus,Nord 2,Gaming,Instagram,Medium,High,0.45
+9990020355,Priya R,21,F,South,Coimbatore,Doctor,Married,high,OnePlus,Nord 2,Music,PUBG,Medium,Medium,0.15
+9990020356,Arun L,40,F,South,Bengaluru,Student,Married,medium,Xiaomi,Redmi 10,Gaming,YouTube,High,Low,0.13
+9990020357,Anita L,23,F,East,Patna,Manager,Married,low,Realme,9i,Gaming,PUBG,High,Medium,0.29
+9990020358,Kavya R,39,M,South,Coimbatore,Manager,Single,low,Samsung,Galaxy A34,Browsing,Instagram,Low,Low,0.09
+9990020359,Kiran R,24,F,South,Hyderabad,Student,Single,high,Samsung,Galaxy S21,Music,YouTube,High,Low,0.44
+9990020360,Dinesh V,54,M,East,Patna,Consultant,Single,high,OnePlus,9 Pro,Browsing,PUBG,Low,Medium,0.24
+9990020361,Kiran N,20,M,South,Bengaluru,Designer,Married,low,Xiaomi,Mi 11,Music,YouTube,Low,High,0.43
+9990020362,Dinesh V,59,M,East,Ranchi,Consultant,Married,low,Xiaomi,Redmi 10,Travel,Netflix,Medium,Medium,0.39
+9990020363,Harish R,54,F,North,Jaipur,Doctor,Single,low,OnePlus,8T,Browsing,PUBG,High,Low,0.5
+9990020364,Anu P,43,M,West,Mumbai,Sales Executive,Married,low,Samsung,Galaxy A34,Browsing,Instagram,High,High,0.37
+9990020365,Rohit L,20,M,North,Chandigarh,Student,Married,low,Xiaomi,Mi 11,Social Media,Chrome,Medium,Low,0.26
+9990020366,Anita G,36,M,East,Kolkata,Teacher,Single,medium,Xiaomi,Redmi 12,Streaming,Chrome,High,High,0.44
+9990020367,Naveen V,33,F,South,Chennai,Teacher,Married,medium,Xiaomi,Redmi 10,Browsing,Chrome,Low,Low,0.2
+9990020368,Anita K,55,F,South,Hyderabad,Student,Married,medium,OnePlus,9 Pro,Music,PUBG,High,Low,0.13
+9990020369,Anita G,25,M,West,Mumbai,Consultant,Married,medium,Realme,9i,Gaming,YouTube,Medium,Medium,0.15
+9990020370,Divya K,52,M,West,Surat,Doctor,Married,high,OnePlus,Nord 2,Gaming,YouTube,Low,Medium,0.28
+9990020371,Kavya G,21,M,East,Kolkata,Sales Executive,Single,low,Apple,iPhone 12,Music,PUBG,Medium,Medium,0.47
+9990020372,Kavya L,55,M,East,Kolkata,Manager,Single,high,Realme,8 Pro,Gaming,Netflix,Low,Medium,0.06
+9990020373,Kavya S,18,F,South,Coimbatore,Designer,Married,medium,Xiaomi,Mi 11,Travel,Chrome,High,High,0.28
+9990020374,Rita G,28,M,South,Hyderabad,Engineer,Single,medium,Xiaomi,Redmi 10,Travel,Netflix,Low,Medium,0.4
+9990020375,Dinesh P,26,M,East,Bhubaneswar,Sales Executive,Married,high,Xiaomi,Redmi 10,Streaming,Netflix,Medium,Medium,0.28
+9990020376,Anu N,60,M,East,Kolkata,Manager,Single,low,Samsung,Galaxy S21,Social Media,PUBG,High,Low,0.06
+9990020377,Rohit S,35,M,East,Kolkata,Designer,Single,low,Xiaomi,Redmi 12,Browsing,PUBG,Low,High,0.21
+9990020378,Shalini T,41,M,West,Ahmedabad,Doctor,Married,medium,Realme,9i,Music,PUBG,Low,Low,0.13
+9990020379,Anita N,29,F,North,Lucknow,Manager,Married,medium,Realme,9i,Social Media,PUBG,Low,Medium,0.11
+9990020380,Dinesh K,30,F,East,Bhubaneswar,Sales Executive,Single,high,OnePlus,9 Pro,Streaming,YouTube,High,Low,0.07
+9990020381,Rita L,49,M,North,Delhi,Sales Executive,Married,medium,OnePlus,Nord 2,Gaming,PUBG,Medium,Medium,0.25
+9990020382,Ravi T,23,M,East,Patna,Designer,Single,medium,Samsung,Galaxy A34,Social Media,Instagram,Low,High,0.21
+9990020383,Vijay S,32,F,South,Bengaluru,Designer,Married,medium,Xiaomi,Mi 11,Social Media,Netflix,High,Low,0.19
+9990020384,Anita K,20,M,North,Delhi,Teacher,Single,high,Xiaomi,Mi 11,Gaming,Chrome,High,Medium,0.13
+9990020385,Anu K,47,F,North,Delhi,Designer,Married,high,OnePlus,Nord 2,Music,PUBG,Low,Medium,0.24
+9990020386,Dinesh V,43,F,West,Pune,Designer,Single,high,Xiaomi,Redmi 10,Music,YouTube,Low,Medium,0.19
+9990020387,Arun K,25,M,West,Pune,Teacher,Single,high,Samsung,Galaxy S21,Music,Netflix,Low,High,0.36
+9990020388,Meera T,25,M,East,Bhubaneswar,Designer,Single,medium,Xiaomi,Redmi 12,Travel,YouTube,High,Low,0.29
+9990020389,Divya K,50,M,West,Pune,Doctor,Married,medium,Apple,iPhone 14,Browsing,Instagram,High,High,0.37
+9990020390,Rita M,28,M,North,Jaipur,Consultant,Married,high,Apple,iPhone 11,Social Media,Chrome,Low,Medium,0.44
+9990020391,Arun R,24,F,North,Jaipur,Designer,Married,low,Samsung,Galaxy A34,Travel,Instagram,High,Medium,0.47
+9990020392,Manoj K,49,F,East,Bhubaneswar,Designer,Married,medium,Xiaomi,Mi 11,Gaming,Chrome,Low,Low,0.43
+9990020393,Shalini N,41,F,South,Coimbatore,Designer,Married,low,Realme,8 Pro,Streaming,Instagram,Medium,High,0.44
+9990020394,Kiran P,55,F,West,Surat,Doctor,Single,low,Samsung,Galaxy S21,Travel,YouTube,High,Medium,0.47
+9990020395,Sneha V,47,F,West,Surat,Sales Executive,Married,high,Xiaomi,Redmi 12,Reading,Instagram,Medium,Medium,0.26
+9990020396,Shalini P,24,M,West,Pune,Doctor,Single,high,Realme,9i,Travel,YouTube,Low,High,0.11
+9990020397,Ravi K,59,M,South,Coimbatore,Doctor,Married,low,Apple,iPhone 12,Social Media,PUBG,Medium,High,0.5
+9990020398,Rohit T,24,M,North,Chandigarh,Student,Single,low,Apple,iPhone 13,Travel,YouTube,High,High,0.34
+9990020399,Manoj S,55,M,East,Bhubaneswar,Engineer,Single,high,Xiaomi,Mi 11,Music,YouTube,Medium,Low,0.42
+9990020400,Ravi T,47,F,West,Mumbai,Doctor,Married,high,Samsung,Galaxy S22,Travel,Instagram,Low,Low,0.42
+9990020401,Arun S,40,M,East,Kolkata,Teacher,Married,high,Samsung,Galaxy A34,Reading,YouTube,Medium,Low,0.12
+9990020402,Arun R,20,F,West,Surat,Manager,Married,medium,Realme,9i,Social Media,Instagram,Medium,High,0.14
+9990020403,Anu T,35,M,North,Delhi,Sales Executive,Single,low,Samsung,A52,Gaming,Instagram,Medium,Medium,0.3
+9990020404,Naveen P,18,M,East,Ranchi,Designer,Single,high,Samsung,Galaxy A34,Music,Instagram,Medium,High,0.47
+9990020405,Harish P,42,M,East,Kolkata,Consultant,Single,high,Realme,9i,Travel,Instagram,High,High,0.25
+9990020406,Latha R,31,F,East,Ranchi,Manager,Single,high,Samsung,Galaxy S22,Streaming,YouTube,High,High,0.19
+9990020407,Dinesh L,19,F,North,Chandigarh,Sales Executive,Married,low,Realme,9i,Music,PUBG,Low,Low,0.43
+9990020408,Rita G,31,F,West,Mumbai,Consultant,Single,medium,Xiaomi,Mi 11,Gaming,Netflix,Low,High,0.06
+9990020409,Divya S,41,M,West,Ahmedabad,Engineer,Single,low,Realme,9i,Music,YouTube,Medium,Low,0.45
+9990020410,Priya T,34,M,East,Patna,Engineer,Married,high,OnePlus,8T,Browsing,PUBG,High,Low,0.3
+9990020411,Manoj T,20,M,East,Bhubaneswar,Teacher,Single,low,OnePlus,9 Pro,Music,Instagram,Medium,Medium,0.35
+9990020412,Naveen T,19,M,South,Bengaluru,Student,Single,medium,Apple,iPhone 11,Gaming,Instagram,Low,Low,0.1
+9990020413,Kavya P,53,F,South,Chennai,Manager,Married,medium,Samsung,A52,Reading,Netflix,High,Low,0.12
+9990020414,Suresh S,29,F,West,Surat,Consultant,Single,medium,Xiaomi,Redmi 12,Gaming,Instagram,Medium,High,0.08
+9990020415,Priya K,21,F,East,Ranchi,Consultant,Married,high,Samsung,A52,Social Media,PUBG,Low,High,0.45
+9990020416,Dinesh S,24,F,North,Lucknow,Engineer,Married,low,Apple,iPhone 11,Gaming,Netflix,Low,Low,0.28
+9990020417,Ravi N,19,F,North,Delhi,Manager,Single,high,OnePlus,9 Pro,Streaming,PUBG,Medium,Medium,0.32
+9990020418,Anita P,19,F,East,Ranchi,Doctor,Single,low,Xiaomi,Mi 11,Browsing,Instagram,Low,High,0.29
+9990020419,Kiran V,23,F,South,Bengaluru,Engineer,Married,high,Realme,8 Pro,Gaming,YouTube,High,High,0.5
+9990020420,Vijay P,29,M,South,Bengaluru,Doctor,Single,low,Xiaomi,Mi 11,Reading,Chrome,Medium,High,0.5
+9990020421,Dinesh N,40,M,West,Ahmedabad,Doctor,Single,medium,Realme,9i,Reading,Instagram,Low,Medium,0.22
+9990020422,Suresh M,32,F,East,Bhubaneswar,Student,Married,low,Samsung,Galaxy A34,Music,YouTube,Medium,High,0.18
+9990020423,Suresh V,57,F,South,Hyderabad,Doctor,Married,medium,Xiaomi,Redmi 12,Gaming,Instagram,Medium,Low,0.39
+9990020424,Kavya G,23,F,East,Ranchi,Sales Executive,Married,medium,OnePlus,Nord 2,Streaming,YouTube,Low,Low,0.37
+9990020425,Suresh M,41,M,North,Chandigarh,Teacher,Single,high,Samsung,Galaxy A34,Music,YouTube,Low,Low,0.34
+9990020426,Ravi T,20,F,West,Pune,Manager,Married,low,Samsung,Galaxy S21,Travel,Chrome,High,High,0.14
+9990020427,Vijay G,22,M,East,Bhubaneswar,Doctor,Married,medium,Apple,iPhone 12,Gaming,YouTube,High,Medium,0.39
+9990020428,Divya M,55,F,East,Bhubaneswar,Doctor,Married,high,OnePlus,Nord 2,Streaming,YouTube,Low,Low,0.47
+9990020429,Dinesh T,49,F,East,Kolkata,Designer,Single,low,Apple,iPhone 13,Streaming,Instagram,Medium,Low,0.13
+9990020430,Naveen P,52,F,North,Chandigarh,Consultant,Married,high,Xiaomi,Redmi 12,Travel,PUBG,Low,Low,0.29
+9990020431,Kiran V,37,M,South,Coimbatore,Doctor,Single,high,Apple,iPhone 15,Music,Instagram,Medium,High,0.42
+9990020432,Manoj M,23,F,East,Bhubaneswar,Doctor,Single,high,OnePlus,Nord 2,Travel,Netflix,Low,Low,0.37
+9990020433,Dinesh P,59,F,East,Bhubaneswar,Student,Married,high,OnePlus,8T,Music,Netflix,Low,High,0.19
+9990020434,Manoj P,28,M,North,Jaipur,Manager,Married,low,Xiaomi,Mi 11,Streaming,Instagram,Medium,Low,0.49
+9990020435,Anita T,58,M,South,Chennai,Doctor,Married,medium,Apple,iPhone 11,Music,Instagram,Medium,High,0.34
+9990020436,Kiran S,34,M,East,Kolkata,Engineer,Married,medium,Realme,9i,Reading,Chrome,Low,High,0.23
+9990020437,Suresh K,20,F,East,Patna,Designer,Single,high,Apple,iPhone 14,Social Media,PUBG,Low,Medium,0.17
+9990020438,Suresh S,39,F,East,Patna,Doctor,Single,low,OnePlus,Nord 2,Gaming,Chrome,High,Low,0.22
+9990020439,Divya R,55,M,North,Lucknow,Consultant,Single,high,Apple,iPhone 13,Streaming,Netflix,Low,Medium,0.14
+9990020440,Dinesh R,23,M,West,Mumbai,Teacher,Married,medium,Xiaomi,Mi 11,Reading,Netflix,Medium,Medium,0.1
+9990020441,Manoj T,59,F,East,Patna,Teacher,Married,low,Xiaomi,Redmi 10,Reading,YouTube,Low,High,0.07
+9990020442,Kiran M,43,M,East,Bhubaneswar,Student,Single,low,Apple,iPhone 15,Travel,Instagram,Medium,High,0.4
+9990020443,Manoj K,51,M,South,Chennai,Engineer,Single,medium,Apple,iPhone 12,Social Media,Chrome,Medium,High,0.1
+9990020444,Dinesh T,18,M,South,Coimbatore,Doctor,Single,medium,OnePlus,Nord 2,Music,PUBG,Medium,Low,0.11
+9990020445,Naveen G,51,M,North,Chandigarh,Engineer,Married,low,Xiaomi,Redmi 12,Music,YouTube,Low,Low,0.4
+9990020446,Manoj R,50,M,South,Chennai,Sales Executive,Married,medium,Samsung,A52,Travel,PUBG,Low,Low,0.09
+9990020447,Rohit K,24,M,North,Delhi,Consultant,Single,medium,Samsung,Galaxy A34,Browsing,YouTube,Medium,Medium,0.26
+9990020448,Manoj V,27,F,East,Bhubaneswar,Teacher,Single,medium,Apple,iPhone 12,Browsing,Chrome,Low,Medium,0.33
+9990020449,Rita M,55,M,East,Ranchi,Sales Executive,Married,medium,Xiaomi,Mi 11,Streaming,YouTube,Medium,Low,0.13
+9990020450,Shalini M,22,F,North,Delhi,Manager,Single,medium,OnePlus,9 Pro,Travel,YouTube,Medium,Medium,0.25
+9990020451,Kavya K,44,F,East,Patna,Consultant,Married,low,Xiaomi,Redmi 12,Music,Instagram,Low,Medium,0.15
+9990020452,Suresh N,53,M,East,Ranchi,Teacher,Married,medium,Realme,8 Pro,Music,PUBG,Low,Low,0.22
+9990020453,Vijay M,45,M,East,Kolkata,Doctor,Married,high,OnePlus,Nord 2,Streaming,Netflix,Medium,Medium,0.42
+9990020454,Manoj P,55,M,East,Patna,Doctor,Single,medium,Xiaomi,Redmi 12,Browsing,Chrome,Medium,Low,0.33
+9990020455,Arun V,19,F,South,Bengaluru,Teacher,Single,high,Samsung,Galaxy S21,Social Media,PUBG,High,Low,0.33
+9990020456,Rohit V,18,F,West,Mumbai,Consultant,Single,high,Apple,iPhone 14,Music,Netflix,Low,Low,0.42
+9990020457,Rohit S,27,M,South,Chennai,Sales Executive,Single,low,Xiaomi,Mi 11,Browsing,Instagram,High,High,0.3
+9990020458,Harish S,48,F,East,Patna,Student,Married,low,Xiaomi,Redmi 10,Browsing,Instagram,High,High,0.45
+9990020459,Kiran N,38,F,East,Patna,Doctor,Married,low,OnePlus,9 Pro,Browsing,Netflix,Medium,High,0.46
+9990020460,Suresh S,34,M,South,Coimbatore,Consultant,Married,medium,OnePlus,9 Pro,Browsing,PUBG,High,Medium,0.36
+9990020461,Arun M,32,F,East,Kolkata,Engineer,Married,high,Xiaomi,Redmi 12,Browsing,Netflix,Low,Low,0.16
+9990020462,Arun L,47,F,North,Delhi,Sales Executive,Single,medium,Apple,iPhone 11,Browsing,PUBG,High,Medium,0.23
+9990020463,Suresh V,27,F,North,Delhi,Sales Executive,Married,medium,OnePlus,Nord 2,Social Media,Instagram,High,High,0.4
+9990020464,Kiran P,26,F,East,Patna,Engineer,Single,low,Realme,8 Pro,Music,PUBG,Medium,High,0.5
+9990020465,Kavya M,47,F,South,Hyderabad,Manager,Single,low,Xiaomi,Mi 11,Travel,Instagram,Medium,Low,0.36
+9990020466,Kiran R,18,F,North,Lucknow,Student,Married,high,Apple,iPhone 14,Browsing,Netflix,Low,Medium,0.46
+9990020467,Arun S,31,F,South,Hyderabad,Sales Executive,Single,high,Samsung,Galaxy S22,Social Media,Instagram,Medium,Low,0.21
+9990020468,Priya K,59,M,North,Chandigarh,Student,Married,high,Apple,iPhone 14,Travel,Chrome,Medium,Medium,0.2
+9990020469,Kavya S,48,F,West,Ahmedabad,Engineer,Married,medium,Xiaomi,Redmi 10,Reading,PUBG,Low,Medium,0.35
+9990020470,Arun K,56,F,North,Jaipur,Consultant,Single,high,Samsung,A52,Reading,YouTube,High,High,0.22
+9990020471,Anita V,28,M,East,Patna,Teacher,Single,low,OnePlus,8T,Gaming,Chrome,High,High,0.35
+9990020472,Meera G,39,F,North,Delhi,Manager,Married,medium,Apple,iPhone 12,Browsing,Chrome,High,High,0.45
+9990020473,Shalini R,19,M,South,Coimbatore,Designer,Married,medium,OnePlus,8T,Travel,Netflix,High,Medium,0.35
+9990020474,Anita G,45,M,East,Bhubaneswar,Teacher,Single,high,Realme,9i,Social Media,Netflix,Medium,High,0.29
+9990020475,Meera N,46,M,South,Hyderabad,Designer,Single,medium,Realme,8 Pro,Reading,Netflix,Low,Low,0.46
+9990020476,Anita G,21,F,North,Chandigarh,Manager,Married,high,Apple,iPhone 14,Music,YouTube,Low,Medium,0.14
+9990020477,Ravi V,51,M,East,Patna,Student,Single,low,Realme,8 Pro,Browsing,Chrome,Medium,Low,0.25
+9990020478,Harish P,20,F,East,Bhubaneswar,Teacher,Single,low,Apple,iPhone 13,Social Media,Chrome,Medium,Low,0.28
+9990020479,Dinesh L,43,M,North,Delhi,Teacher,Single,high,Apple,iPhone 12,Music,Chrome,Low,High,0.42
+9990020480,Rohit M,35,M,South,Hyderabad,Sales Executive,Married,low,Samsung,A52,Travel,Netflix,Medium,High,0.06
+9990020481,Anu G,29,M,South,Bengaluru,Sales Executive,Married,medium,Realme,8 Pro,Music,PUBG,Low,Medium,0.42
+9990020482,Shalini S,33,F,North,Delhi,Designer,Single,high,Apple,iPhone 15,Browsing,Instagram,Low,Low,0.22
+9990020483,Harish G,32,F,West,Ahmedabad,Student,Married,low,Realme,9i,Browsing,YouTube,High,Low,0.17
+9990020484,Latha V,21,F,North,Chandigarh,Sales Executive,Married,medium,Apple,iPhone 12,Social Media,PUBG,High,High,0.42
+9990020485,Vijay T,33,F,South,Bengaluru,Sales Executive,Married,low,Apple,iPhone 13,Social Media,Chrome,Low,Medium,0.19
+9990020486,Anita L,20,M,South,Hyderabad,Doctor,Married,low,OnePlus,8T,Browsing,YouTube,High,Medium,0.29
+9990020487,Latha T,37,F,North,Delhi,Teacher,Single,medium,Realme,9i,Reading,YouTube,Medium,Medium,0.28
+9990020488,Sneha L,23,M,North,Lucknow,Doctor,Married,low,OnePlus,9 Pro,Social Media,Instagram,Medium,Low,0.1
+9990020489,Anita T,44,M,North,Delhi,Doctor,Married,high,Realme,8 Pro,Streaming,PUBG,Low,High,0.32
+9990020490,Ravi M,45,F,North,Lucknow,Designer,Married,medium,Samsung,Galaxy A34,Music,YouTube,High,High,0.45
+9990020491,Divya T,33,F,South,Hyderabad,Student,Married,medium,Xiaomi,Redmi 10,Music,YouTube,High,Medium,0.24
+9990020492,Vijay L,57,M,South,Coimbatore,Teacher,Single,medium,Realme,9i,Reading,YouTube,Low,Medium,0.05
+9990020493,Meera T,57,M,North,Chandigarh,Doctor,Married,low,Realme,8 Pro,Music,Netflix,Medium,Low,0.33
+9990020494,Kavya L,34,M,North,Jaipur,Sales Executive,Married,medium,Realme,9i,Gaming,YouTube,Medium,High,0.26
+9990020495,Meera R,45,M,South,Chennai,Manager,Married,low,Realme,8 Pro,Travel,Instagram,High,Low,0.11
+9990020496,Shalini T,49,F,South,Bengaluru,Consultant,Married,low,Xiaomi,Mi 11,Music,Instagram,High,High,0.38
+9990020497,Vijay M,30,F,East,Bhubaneswar,Sales Executive,Married,medium,Apple,iPhone 12,Browsing,Netflix,High,Low,0.09
+9990020498,Harish L,51,F,North,Delhi,Manager,Single,high,Xiaomi,Redmi 12,Music,PUBG,Medium,Medium,0.25
+9990020499,Arun K,30,F,East,Patna,Designer,Single,medium,Realme,8 Pro,Music,Netflix,Low,High,0.45
+9990020500,Sneha K,27,F,West,Pune,Consultant,Single,low,Apple,iPhone 13,Music,Netflix,Medium,Low,0.14
+9990020501,Ravi G,48,F,West,Ahmedabad,Engineer,Married,medium,Apple,iPhone 13,Reading,Chrome,Medium,Medium,0.24
+9990020502,Dinesh N,28,M,West,Mumbai,Engineer,Married,medium,OnePlus,Nord 2,Streaming,Chrome,Low,Low,0.38
+9990020503,Kiran N,20,F,West,Ahmedabad,Sales Executive,Married,low,Apple,iPhone 13,Social Media,Instagram,Medium,Low,0.41
+9990020504,Anita V,45,M,North,Jaipur,Manager,Single,high,Realme,9i,Reading,YouTube,Medium,Low,0.06
+9990020505,Anu M,30,F,South,Bengaluru,Doctor,Single,low,Apple,iPhone 15,Browsing,Chrome,Low,Medium,0.26
+9990020506,Rita L,39,F,West,Pune,Sales Executive,Married,medium,OnePlus,8T,Music,Instagram,High,Low,0.35
+9990020507,Sneha V,25,M,East,Patna,Sales Executive,Single,medium,Realme,8 Pro,Music,YouTube,Low,High,0.14
+9990020508,Latha L,54,F,North,Jaipur,Sales Executive,Married,medium,OnePlus,9 Pro,Streaming,Netflix,Medium,High,0.34
+9990020509,Anu G,41,M,East,Bhubaneswar,Teacher,Married,low,Apple,iPhone 14,Browsing,Chrome,Low,Medium,0.29
+9990020510,Sneha R,29,F,East,Kolkata,Teacher,Married,medium,Apple,iPhone 15,Travel,PUBG,Medium,High,0.15
+9990020511,Ravi T,57,F,East,Ranchi,Engineer,Single,high,OnePlus,9 Pro,Streaming,Chrome,Medium,High,0.1
+9990020512,Kiran G,25,F,North,Jaipur,Consultant,Married,high,Xiaomi,Redmi 10,Browsing,Netflix,Low,Medium,0.27
+9990020513,Priya G,31,F,South,Hyderabad,Engineer,Married,high,Realme,8 Pro,Streaming,YouTube,High,Medium,0.41
+9990020514,Divya S,51,M,South,Bengaluru,Consultant,Single,medium,Xiaomi,Redmi 10,Social Media,PUBG,High,Low,0.25
+9990020515,Anu G,59,M,East,Kolkata,Doctor,Married,medium,Realme,8 Pro,Reading,PUBG,Medium,Medium,0.17
+9990020516,Shalini P,21,M,East,Bhubaneswar,Doctor,Married,high,Samsung,A52,Travel,Netflix,Low,High,0.25
+9990020517,Harish L,56,M,East,Bhubaneswar,Manager,Married,low,Realme,9i,Travel,Instagram,Low,Low,0.43
+9990020518,Anu N,23,F,West,Mumbai,Student,Single,high,Xiaomi,Redmi 10,Social Media,Chrome,Low,Medium,0.38
+9990020519,Rohit P,56,F,North,Jaipur,Sales Executive,Single,low,Realme,8 Pro,Gaming,PUBG,Medium,Low,0.46
+9990020520,Harish N,39,F,West,Pune,Teacher,Married,low,Realme,8 Pro,Gaming,Chrome,High,High,0.07
+9990020521,Suresh K,40,F,South,Hyderabad,Doctor,Single,low,Xiaomi,Mi 11,Gaming,PUBG,Medium,Medium,0.12
+9990020522,Anita T,28,M,West,Pune,Consultant,Married,high,OnePlus,Nord 2,Social Media,PUBG,Low,Low,0.47
+9990020523,Meera S,18,M,South,Chennai,Engineer,Single,low,Xiaomi,Mi 11,Reading,Netflix,Low,Low,0.13
+9990020524,Suresh T,41,M,East,Patna,Doctor,Married,medium,Apple,iPhone 15,Social Media,YouTube,High,Medium,0.5
+9990020525,Meera L,26,F,West,Mumbai,Engineer,Single,low,Apple,iPhone 15,Browsing,Chrome,Medium,High,0.13
+9990020526,Priya L,57,F,West,Mumbai,Sales Executive,Married,low,OnePlus,8T,Reading,YouTube,Low,High,0.09
+9990020527,Suresh K,28,F,North,Chandigarh,Consultant,Single,medium,OnePlus,8T,Social Media,Instagram,Low,Medium,0.18
+9990020528,Dinesh V,49,M,East,Bhubaneswar,Teacher,Married,medium,Realme,9i,Music,YouTube,High,High,0.47
+9990020529,Ravi P,48,F,West,Mumbai,Manager,Married,high,Samsung,Galaxy S22,Streaming,Instagram,Medium,High,0.2
+9990020530,Priya L,27,F,North,Chandigarh,Designer,Married,medium,Samsung,Galaxy A34,Reading,Chrome,Medium,Low,0.05
+9990020531,Priya L,27,M,South,Bengaluru,Consultant,Married,high,Xiaomi,Mi 11,Browsing,PUBG,Low,High,0.12
+9990020532,Kiran M,41,M,East,Kolkata,Designer,Single,medium,Apple,iPhone 15,Streaming,Chrome,Low,High,0.14
+9990020533,Rohit G,47,M,North,Delhi,Designer,Single,medium,Samsung,A52,Travel,Instagram,Low,Medium,0.32
+9990020534,Kiran T,60,F,South,Chennai,Student,Married,high,Apple,iPhone 11,Social Media,YouTube,Medium,Low,0.17
+9990020535,Anu R,40,F,South,Bengaluru,Designer,Married,low,Samsung,Galaxy A34,Gaming,YouTube,Medium,Low,0.05
+9990020536,Naveen R,52,F,South,Bengaluru,Engineer,Single,low,Realme,9i,Reading,Chrome,Medium,Low,0.3
+9990020537,Divya N,33,M,East,Patna,Teacher,Married,low,OnePlus,8T,Social Media,YouTube,High,Low,0.17
+9990020538,Meera T,32,F,North,Chandigarh,Engineer,Single,high,OnePlus,Nord 2,Social Media,Instagram,Low,Medium,0.07
+9990020539,Divya L,46,M,East,Patna,Engineer,Single,medium,Samsung,A52,Gaming,Netflix,High,Low,0.28
+9990020540,Naveen N,25,M,South,Hyderabad,Teacher,Single,high,Realme,9i,Reading,YouTube,Medium,Medium,0.41
+9990020541,Arun S,58,M,East,Patna,Sales Executive,Single,low,Samsung,Galaxy S21,Streaming,Netflix,High,Medium,0.35
+9990020542,Priya K,54,M,North,Jaipur,Teacher,Married,high,Samsung,Galaxy A34,Gaming,YouTube,High,Medium,0.11
+9990020543,Anita R,52,M,East,Bhubaneswar,Designer,Single,medium,Apple,iPhone 13,Social Media,Chrome,High,High,0.3
+9990020544,Kiran M,36,F,North,Delhi,Teacher,Married,high,Realme,9i,Music,Instagram,High,Medium,0.25
+9990020545,Latha N,18,F,North,Jaipur,Engineer,Married,medium,Apple,iPhone 11,Reading,Chrome,Low,High,0.08
+9990020546,Naveen L,44,M,North,Chandigarh,Sales Executive,Married,low,OnePlus,8T,Reading,YouTube,High,Low,0.49
+9990020547,Meera P,21,F,South,Bengaluru,Sales Executive,Single,high,Realme,8 Pro,Reading,PUBG,High,Low,0.07
+9990020548,Kiran K,40,F,West,Surat,Student,Married,medium,Samsung,Galaxy S22,Travel,YouTube,Low,High,0.47
+9990020549,Priya R,51,F,East,Ranchi,Consultant,Single,medium,Realme,9i,Reading,Instagram,Medium,Medium,0.27
+9990020550,Divya P,30,F,North,Delhi,Engineer,Married,high,Xiaomi,Redmi 10,Gaming,PUBG,Medium,Medium,0.16
+9990020551,Kavya P,59,M,West,Pune,Engineer,Married,high,OnePlus,9 Pro,Social Media,Chrome,High,Medium,0.3
+9990020552,Sneha G,18,F,East,Patna,Consultant,Single,medium,Apple,iPhone 13,Browsing,Netflix,Medium,High,0.37
+9990020553,Shalini M,27,F,West,Pune,Doctor,Single,low,Samsung,A52,Browsing,PUBG,Medium,Low,0.29
+9990020554,Vijay L,22,F,North,Jaipur,Doctor,Married,high,Realme,9i,Gaming,YouTube,Low,High,0.16
+9990020555,Sneha T,39,F,North,Delhi,Designer,Single,high,Xiaomi,Redmi 10,Social Media,PUBG,High,High,0.34
+9990020556,Anita K,21,M,East,Bhubaneswar,Sales Executive,Married,low,Realme,8 Pro,Gaming,Chrome,High,Medium,0.23
+9990020557,Divya L,43,F,West,Pune,Doctor,Married,low,Realme,8 Pro,Travel,Chrome,High,Medium,0.28
+9990020558,Vijay S,49,M,West,Surat,Manager,Married,high,OnePlus,9 Pro,Browsing,YouTube,High,Low,0.3
+9990020559,Kiran L,46,F,North,Lucknow,Doctor,Single,medium,Samsung,Galaxy S22,Social Media,PUBG,High,Medium,0.46
+9990020560,Shalini R,39,M,West,Pune,Teacher,Married,high,OnePlus,8T,Travel,Chrome,Low,High,0.07
+9990020561,Vijay T,48,M,North,Delhi,Designer,Married,low,Samsung,Galaxy S22,Reading,Chrome,Low,Low,0.06
+9990020562,Manoj P,20,M,South,Hyderabad,Designer,Single,low,Realme,9i,Travel,Netflix,Low,High,0.28
+9990020563,Kiran K,25,M,West,Ahmedabad,Manager,Single,medium,Realme,8 Pro,Gaming,Instagram,Medium,Medium,0.24
+9990020564,Rohit T,43,M,South,Chennai,Student,Married,low,Samsung,A52,Browsing,Chrome,High,High,0.43
+9990020565,Dinesh P,20,M,North,Jaipur,Consultant,Single,high,OnePlus,Nord 2,Travel,PUBG,Medium,Medium,0.06
+9990020566,Naveen G,49,F,East,Bhubaneswar,Teacher,Married,medium,Apple,iPhone 13,Music,Chrome,High,High,0.34
+9990020567,Anu S,59,F,North,Delhi,Student,Single,medium,OnePlus,Nord 2,Travel,Chrome,High,High,0.15
+9990020568,Naveen R,41,F,South,Coimbatore,Student,Married,high,Apple,iPhone 14,Reading,PUBG,High,Medium,0.15
+9990020569,Priya N,29,M,South,Chennai,Consultant,Married,medium,OnePlus,Nord 2,Browsing,Chrome,High,Low,0.18
+9990020570,Arun G,32,F,North,Lucknow,Engineer,Single,high,Samsung,Galaxy S21,Social Media,Netflix,Medium,Low,0.41
+9990020571,Suresh L,26,F,South,Bengaluru,Student,Single,medium,Apple,iPhone 15,Browsing,Instagram,Medium,Low,0.31
+9990020572,Ravi M,21,M,North,Delhi,Manager,Single,medium,Realme,9i,Gaming,Netflix,High,Medium,0.34
+9990020573,Kavya K,46,M,North,Delhi,Manager,Single,high,Xiaomi,Mi 11,Music,PUBG,Low,Low,0.35
+9990020574,Manoj K,54,M,East,Ranchi,Engineer,Single,medium,Apple,iPhone 13,Music,Chrome,Medium,Low,0.47
+9990020575,Ravi N,51,F,North,Delhi,Manager,Married,medium,Xiaomi,Redmi 10,Travel,PUBG,Medium,Medium,0.36
+9990020576,Kavya R,25,F,East,Ranchi,Sales Executive,Married,high,Apple,iPhone 14,Reading,Instagram,Low,Medium,0.43
+9990020577,Manoj K,45,F,South,Chennai,Designer,Single,low,OnePlus,9 Pro,Travel,Chrome,Low,Low,0.21
+9990020578,Arun S,22,F,South,Hyderabad,Doctor,Single,high,Samsung,A52,Browsing,YouTube,Medium,Low,0.42
+9990020579,Priya G,45,F,West,Pune,Teacher,Single,high,Realme,9i,Travel,PUBG,Low,Medium,0.44
+9990020580,Vijay R,56,M,South,Bengaluru,Doctor,Married,medium,Samsung,A52,Gaming,YouTube,High,High,0.48
+9990020581,Arun M,33,M,West,Surat,Student,Married,medium,Apple,iPhone 13,Gaming,PUBG,High,Low,0.23
+9990020582,Meera V,50,M,West,Surat,Teacher,Single,high,Apple,iPhone 11,Travel,Chrome,Medium,Low,0.39
+9990020583,Kavya N,47,F,South,Bengaluru,Engineer,Single,medium,Xiaomi,Redmi 10,Travel,Netflix,Low,Medium,0.2
+9990020584,Kavya N,36,F,North,Lucknow,Doctor,Single,low,Xiaomi,Mi 11,Browsing,Chrome,Medium,Low,0.49
+9990020585,Shalini T,57,F,South,Hyderabad,Sales Executive,Married,low,Apple,iPhone 15,Social Media,PUBG,High,High,0.24
+9990020586,Naveen P,50,F,West,Mumbai,Sales Executive,Married,medium,Realme,9i,Streaming,Instagram,Medium,Medium,0.07
+9990020587,Meera L,42,M,North,Chandigarh,Sales Executive,Married,medium,OnePlus,Nord 2,Music,PUBG,High,High,0.07
+9990020588,Shalini G,54,M,South,Coimbatore,Engineer,Single,high,Apple,iPhone 11,Reading,Chrome,Low,Low,0.35
+9990020589,Rohit G,60,F,West,Ahmedabad,Student,Married,medium,Xiaomi,Redmi 10,Browsing,PUBG,Medium,Low,0.4
+9990020590,Suresh S,39,F,North,Delhi,Sales Executive,Single,medium,OnePlus,Nord 2,Reading,Instagram,Low,Medium,0.22
+9990020591,Manoj K,25,M,East,Bhubaneswar,Sales Executive,Single,medium,OnePlus,8T,Music,Instagram,High,Medium,0.37
+9990020592,Rohit P,28,F,West,Mumbai,Student,Single,high,OnePlus,8T,Reading,Chrome,High,Low,0.43
+9990020593,Sneha N,56,M,East,Kolkata,Sales Executive,Single,high,Xiaomi,Mi 11,Travel,Instagram,Low,Medium,0.45
+9990020594,Manoj M,44,M,West,Mumbai,Consultant,Single,low,Apple,iPhone 14,Travel,YouTube,Medium,High,0.46
+9990020595,Dinesh K,56,M,East,Patna,Student,Married,low,OnePlus,9 Pro,Social Media,PUBG,Low,High,0.31
+9990020596,Rita V,49,F,South,Coimbatore,Designer,Married,low,Xiaomi,Redmi 12,Travel,PUBG,Medium,Low,0.25
+9990020597,Sneha T,37,F,North,Chandigarh,Consultant,Single,high,OnePlus,Nord 2,Browsing,Netflix,Low,Low,0.29
+9990020598,Meera S,18,M,West,Mumbai,Engineer,Single,medium,Samsung,Galaxy S21,Music,YouTube,High,Low,0.22
+9990020599,Rohit R,52,M,West,Pune,Teacher,Married,high,Apple,iPhone 13,Social Media,Instagram,Low,High,0.09
+9990020600,Anita V,58,M,East,Kolkata,Engineer,Married,medium,OnePlus,8T,Music,Chrome,High,Low,0.19
+9990020601,Vijay V,48,M,East,Ranchi,Doctor,Married,high,Samsung,A52,Gaming,Netflix,Medium,High,0.49
+9990020602,Suresh T,53,M,East,Patna,Manager,Married,high,Apple,iPhone 12,Browsing,Netflix,High,High,0.35
+9990020603,Naveen T,45,M,North,Lucknow,Doctor,Single,medium,Realme,8 Pro,Travel,Chrome,Medium,High,0.29
+9990020604,Vijay N,53,F,East,Kolkata,Manager,Single,low,OnePlus,8T,Music,PUBG,Medium,Medium,0.11
+9990020605,Rohit V,38,F,West,Pune,Student,Single,low,Xiaomi,Mi 11,Streaming,PUBG,Low,Medium,0.43
+9990020606,Anita N,26,M,West,Pune,Designer,Single,low,Samsung,Galaxy S22,Social Media,Netflix,Medium,Medium,0.26
+9990020607,Anu V,48,M,East,Patna,Doctor,Single,low,Realme,9i,Travel,Instagram,Low,Medium,0.31
+9990020608,Anita P,22,M,West,Mumbai,Student,Married,high,Samsung,Galaxy A34,Social Media,Instagram,Low,Low,0.05
+9990020609,Manoj T,50,F,East,Patna,Sales Executive,Single,low,Realme,9i,Travel,Instagram,Low,Medium,0.21
+9990020610,Rohit M,55,F,South,Coimbatore,Sales Executive,Single,medium,OnePlus,Nord 2,Reading,PUBG,Medium,Low,0.17
+9990020611,Divya P,26,M,South,Coimbatore,Doctor,Married,high,Apple,iPhone 11,Reading,PUBG,Low,High,0.22
+9990020612,Kavya R,34,M,East,Bhubaneswar,Doctor,Single,high,OnePlus,9 Pro,Music,Instagram,Low,Low,0.2
+9990020613,Anu T,28,M,North,Jaipur,Sales Executive,Single,high,OnePlus,Nord 2,Gaming,Instagram,High,Low,0.39
+9990020614,Manoj R,23,M,North,Lucknow,Consultant,Single,low,Realme,8 Pro,Browsing,Netflix,Medium,Low,0.19
+9990020615,Harish P,29,F,East,Patna,Engineer,Married,medium,Xiaomi,Mi 11,Streaming,YouTube,Low,Low,0.16
+9990020616,Latha T,22,M,North,Lucknow,Doctor,Single,medium,Realme,8 Pro,Gaming,YouTube,Medium,Medium,0.29
+9990020617,Ravi T,47,F,North,Chandigarh,Teacher,Married,medium,Apple,iPhone 12,Travel,YouTube,High,Medium,0.13
+9990020618,Anu R,50,F,East,Ranchi,Teacher,Single,low,OnePlus,8T,Music,Instagram,Medium,Low,0.39
+9990020619,Divya G,39,F,South,Chennai,Engineer,Married,high,OnePlus,8T,Browsing,Instagram,Low,Low,0.36
+9990020620,Divya N,22,F,South,Bengaluru,Designer,Single,high,Samsung,Galaxy A34,Reading,PUBG,Medium,Low,0.05
+9990020621,Anu S,31,F,West,Pune,Consultant,Single,high,Samsung,Galaxy A34,Music,YouTube,Low,Medium,0.18
+9990020622,Dinesh N,38,F,North,Lucknow,Teacher,Married,medium,Xiaomi,Mi 11,Streaming,Netflix,Low,High,0.28
+9990020623,Kiran L,45,F,East,Patna,Student,Married,high,Apple,iPhone 15,Music,Netflix,High,Low,0.09
+9990020624,Priya P,35,M,East,Patna,Designer,Single,low,Samsung,Galaxy S22,Social Media,PUBG,Medium,Medium,0.35
+9990020625,Dinesh G,49,F,East,Patna,Consultant,Single,medium,Realme,9i,Reading,YouTube,Low,Low,0.25
+9990020626,Kiran R,28,M,South,Coimbatore,Sales Executive,Single,medium,Samsung,Galaxy S21,Reading,Instagram,Low,Medium,0.23
+9990020627,Shalini G,36,M,North,Chandigarh,Teacher,Single,low,Realme,8 Pro,Social Media,Netflix,Low,High,0.33
+9990020628,Dinesh N,25,M,South,Coimbatore,Designer,Married,low,Apple,iPhone 11,Reading,Netflix,Medium,High,0.17
+9990020629,Priya V,27,F,East,Kolkata,Designer,Married,medium,Realme,8 Pro,Gaming,Instagram,Low,Low,0.11
+9990020630,Rohit G,18,M,West,Surat,Doctor,Married,low,OnePlus,9 Pro,Reading,Chrome,Low,Low,0.22
+9990020631,Anita G,44,M,West,Mumbai,Manager,Single,medium,Apple,iPhone 15,Browsing,Instagram,High,Low,0.37
+9990020632,Meera N,56,M,South,Bengaluru,Engineer,Married,medium,OnePlus,Nord 2,Travel,YouTube,High,Medium,0.28
+9990020633,Shalini G,27,F,East,Ranchi,Teacher,Single,high,Xiaomi,Redmi 12,Reading,Chrome,High,Medium,0.38
+9990020634,Shalini M,27,M,East,Kolkata,Engineer,Single,high,OnePlus,9 Pro,Browsing,YouTube,Low,Low,0.23
+9990020635,Meera V,46,M,South,Chennai,Manager,Single,high,OnePlus,8T,Gaming,Netflix,Medium,High,0.43
+9990020636,Suresh M,25,F,West,Pune,Teacher,Married,low,OnePlus,8T,Social Media,Chrome,High,Medium,0.38
+9990020637,Meera V,54,F,East,Patna,Manager,Married,high,OnePlus,Nord 2,Music,Chrome,High,High,0.27
+9990020638,Dinesh V,30,F,North,Jaipur,Designer,Single,low,Apple,iPhone 11,Social Media,Chrome,High,Medium,0.14
+9990020639,Rohit N,32,F,North,Chandigarh,Designer,Single,medium,Apple,iPhone 15,Gaming,Netflix,Low,Medium,0.46
+9990020640,Rita P,22,F,West,Ahmedabad,Manager,Married,medium,Samsung,Galaxy S22,Gaming,Netflix,High,Low,0.33
+9990020641,Kiran L,21,M,North,Delhi,Manager,Single,low,OnePlus,Nord 2,Music,Netflix,Medium,High,0.25
+9990020642,Latha G,58,M,East,Ranchi,Teacher,Single,low,Realme,9i,Music,Chrome,Low,High,0.27
+9990020643,Ravi K,57,F,North,Lucknow,Teacher,Married,high,OnePlus,Nord 2,Travel,Netflix,Medium,Medium,0.14
+9990020644,Ravi S,49,F,West,Surat,Designer,Married,medium,Samsung,Galaxy S21,Gaming,Netflix,Medium,High,0.25
+9990020645,Shalini M,21,F,North,Jaipur,Consultant,Married,high,Apple,iPhone 11,Browsing,Instagram,Medium,Low,0.42
+9990020646,Rohit S,39,M,South,Coimbatore,Manager,Married,medium,Apple,iPhone 12,Streaming,PUBG,Medium,Low,0.34
+9990020647,Anu P,27,F,West,Surat,Teacher,Married,low,OnePlus,9 Pro,Travel,Netflix,High,Medium,0.22
+9990020648,Vijay M,60,M,West,Ahmedabad,Manager,Married,medium,Xiaomi,Mi 11,Gaming,YouTube,High,Medium,0.46
+9990020649,Shalini S,49,M,West,Pune,Consultant,Married,low,Apple,iPhone 13,Streaming,Netflix,High,Medium,0.32
+9990020650,Latha N,56,M,West,Mumbai,Engineer,Married,medium,Samsung,Galaxy S22,Travel,Instagram,High,Low,0.18
+9990020651,Harish N,46,M,North,Jaipur,Manager,Single,high,Realme,9i,Streaming,Instagram,High,High,0.14
+9990020652,Ravi K,28,M,East,Bhubaneswar,Designer,Married,low,Realme,9i,Travel,PUBG,Low,High,0.26
+9990020653,Anita K,31,F,West,Ahmedabad,Consultant,Single,high,Realme,9i,Reading,Netflix,High,High,0.23
+9990020654,Suresh P,49,M,West,Mumbai,Student,Married,low,OnePlus,Nord 2,Browsing,YouTube,High,Medium,0.27
+9990020655,Dinesh T,53,F,North,Delhi,Consultant,Married,medium,Realme,8 Pro,Streaming,PUBG,Medium,High,0.47
+9990020656,Anita K,19,F,West,Surat,Engineer,Single,low,Realme,8 Pro,Travel,Netflix,Low,High,0.28
+9990020657,Rohit K,56,F,East,Kolkata,Designer,Single,medium,Xiaomi,Redmi 12,Music,Netflix,Low,Medium,0.45
+9990020658,Priya T,23,F,East,Patna,Doctor,Single,high,Samsung,Galaxy A34,Gaming,Chrome,Medium,High,0.45
+9990020659,Priya R,54,F,West,Ahmedabad,Designer,Single,low,Samsung,A52,Reading,YouTube,Low,High,0.49
+9990020660,Divya V,43,F,South,Coimbatore,Sales Executive,Single,medium,Samsung,A52,Travel,YouTube,Low,Low,0.3
+9990020661,Suresh L,22,F,North,Jaipur,Manager,Single,high,OnePlus,Nord 2,Reading,Chrome,High,Low,0.36
+9990020662,Arun G,52,M,North,Jaipur,Teacher,Single,medium,OnePlus,9 Pro,Browsing,YouTube,High,High,0.23
+9990020663,Naveen R,36,F,South,Hyderabad,Engineer,Single,high,Samsung,Galaxy S21,Travel,Netflix,Medium,Low,0.46
+9990020664,Naveen S,43,M,South,Coimbatore,Designer,Single,low,Realme,9i,Streaming,Chrome,Medium,Low,0.4
+9990020665,Rita P,18,F,South,Coimbatore,Consultant,Married,medium,Xiaomi,Redmi 12,Gaming,Chrome,Medium,Low,0.2
+9990020666,Priya P,43,M,East,Bhubaneswar,Consultant,Single,medium,Xiaomi,Mi 11,Gaming,Netflix,Medium,High,0.26
+9990020667,Priya M,31,F,West,Surat,Engineer,Married,high,OnePlus,9 Pro,Social Media,YouTube,High,Medium,0.05
+9990020668,Vijay K,34,F,East,Bhubaneswar,Teacher,Married,low,Realme,8 Pro,Streaming,Netflix,High,High,0.36
+9990020669,Ravi T,37,F,West,Surat,Sales Executive,Married,low,Realme,8 Pro,Social Media,Instagram,Low,High,0.46
+9990020670,Anu T,40,F,South,Hyderabad,Doctor,Single,high,Xiaomi,Mi 11,Social Media,Instagram,High,High,0.12
+9990020671,Anu P,46,M,North,Delhi,Manager,Single,medium,Realme,9i,Gaming,YouTube,Low,Low,0.08
+9990020672,Ravi K,42,F,East,Ranchi,Teacher,Married,medium,OnePlus,9 Pro,Browsing,Chrome,Low,High,0.22
+9990020673,Kiran S,34,M,West,Surat,Student,Married,low,Samsung,Galaxy A34,Music,PUBG,High,Medium,0.41
+9990020674,Priya P,46,F,East,Patna,Student,Single,low,Realme,8 Pro,Music,Chrome,Low,High,0.49
+9990020675,Harish T,42,M,East,Ranchi,Consultant,Single,high,OnePlus,8T,Social Media,PUBG,Medium,High,0.38
+9990020676,Kiran S,30,F,East,Bhubaneswar,Doctor,Married,medium,OnePlus,9 Pro,Gaming,Chrome,High,Low,0.46
+9990020677,Anita T,34,F,East,Bhubaneswar,Designer,Single,medium,Realme,9i,Reading,PUBG,Medium,Low,0.4
+9990020678,Divya K,31,F,South,Bengaluru,Designer,Single,medium,OnePlus,8T,Music,Instagram,Low,High,0.11
+9990020679,Anita L,52,F,East,Bhubaneswar,Teacher,Married,low,Samsung,Galaxy A34,Browsing,Chrome,High,Low,0.38
+9990020680,Shalini G,35,F,East,Bhubaneswar,Consultant,Married,low,Xiaomi,Redmi 10,Gaming,Instagram,Low,Low,0.12
+9990020681,Manoj S,26,F,East,Patna,Teacher,Married,low,Samsung,Galaxy S22,Streaming,Instagram,Low,High,0.22
+9990020682,Shalini P,54,M,West,Pune,Doctor,Single,low,Realme,9i,Travel,PUBG,Medium,High,0.38
+9990020683,Ravi K,36,M,North,Lucknow,Student,Single,medium,Xiaomi,Redmi 12,Travel,PUBG,Low,Low,0.28
+9990020684,Meera N,19,M,East,Ranchi,Sales Executive,Single,high,Realme,9i,Streaming,Chrome,Low,Low,0.31
+9990020685,Meera N,56,F,West,Ahmedabad,Consultant,Married,high,Realme,8 Pro,Streaming,Netflix,High,High,0.06
+9990020686,Rohit L,50,M,South,Hyderabad,Student,Married,medium,Xiaomi,Mi 11,Reading,Netflix,Medium,Medium,0.31
+9990020687,Harish P,55,F,West,Ahmedabad,Consultant,Married,low,Apple,iPhone 12,Travel,PUBG,Medium,Medium,0.27
+9990020688,Naveen V,35,F,North,Lucknow,Manager,Married,low,OnePlus,8T,Reading,YouTube,High,Low,0.11
+9990020689,Priya K,50,M,West,Mumbai,Doctor,Single,medium,OnePlus,8T,Music,Chrome,Low,Medium,0.14
+9990020690,Meera K,31,M,North,Delhi,Teacher,Married,high,Realme,8 Pro,Browsing,YouTube,Medium,Medium,0.32
+9990020691,Rohit L,31,M,South,Bengaluru,Doctor,Single,high,Realme,8 Pro,Travel,PUBG,Medium,Medium,0.28
+9990020692,Arun K,20,F,East,Patna,Consultant,Single,medium,Realme,9i,Music,YouTube,Low,High,0.15
+9990020693,Rita S,40,M,North,Chandigarh,Manager,Married,low,OnePlus,Nord 2,Music,Netflix,High,Medium,0.49
+9990020694,Anita V,31,M,South,Hyderabad,Designer,Married,low,OnePlus,9 Pro,Music,Chrome,Low,High,0.11
+9990020695,Kiran G,55,M,West,Surat,Student,Married,low,OnePlus,9 Pro,Travel,Netflix,High,Low,0.32
+9990020696,Rohit N,40,M,West,Mumbai,Doctor,Married,medium,OnePlus,9 Pro,Travel,YouTube,Medium,Medium,0.5
+9990020697,Anu R,46,F,West,Surat,Engineer,Married,medium,Apple,iPhone 13,Reading,Netflix,Low,Low,0.24
+9990020698,Meera P,18,M,South,Bengaluru,Designer,Single,low,OnePlus,Nord 2,Travel,YouTube,High,High,0.46
+9990020699,Dinesh M,55,F,North,Lucknow,Consultant,Married,medium,Apple,iPhone 11,Music,Netflix,Medium,Medium,0.42
+9990020700,Kavya K,34,M,South,Coimbatore,Student,Married,high,Apple,iPhone 11,Streaming,Netflix,Low,Medium,0.43
+9990020701,Vijay M,45,F,North,Chandigarh,Teacher,Single,medium,OnePlus,9 Pro,Browsing,Chrome,Low,Medium,0.46
+9990020702,Rohit P,21,M,North,Delhi,Consultant,Married,medium,OnePlus,Nord 2,Gaming,Instagram,Low,High,0.26
+9990020703,Harish L,21,M,North,Delhi,Manager,Married,high,Samsung,A52,Browsing,Instagram,High,Medium,0.24
+9990020704,Arun T,40,M,North,Jaipur,Designer,Married,low,Samsung,Galaxy S21,Browsing,Chrome,Medium,Medium,0.34
+9990020705,Kavya S,42,M,South,Chennai,Student,Single,high,Apple,iPhone 14,Browsing,PUBG,Medium,Medium,0.05
+9990020706,Rohit L,41,M,North,Jaipur,Teacher,Single,high,OnePlus,8T,Travel,YouTube,Medium,Low,0.13
+9990020707,Dinesh V,33,F,South,Bengaluru,Engineer,Married,low,Apple,iPhone 14,Browsing,Instagram,High,Low,0.49
+9990020708,Kiran R,48,M,North,Lucknow,Manager,Married,medium,Xiaomi,Redmi 10,Travel,Chrome,High,High,0.09
+9990020709,Dinesh G,52,M,North,Delhi,Student,Married,medium,Apple,iPhone 13,Streaming,YouTube,Low,Medium,0.09
+9990020710,Naveen G,47,M,South,Coimbatore,Student,Married,low,Xiaomi,Mi 11,Gaming,YouTube,High,Low,0.26
+9990020711,Priya P,32,M,East,Patna,Designer,Married,low,Xiaomi,Redmi 12,Gaming,Chrome,High,Low,0.46
+9990020712,Sneha M,18,M,West,Surat,Engineer,Married,high,Realme,8 Pro,Reading,YouTube,Low,High,0.31
+9990020713,Rita T,30,M,South,Chennai,Engineer,Single,medium,OnePlus,8T,Streaming,Chrome,Medium,Medium,0.26
+9990020714,Divya V,36,M,East,Ranchi,Engineer,Married,medium,OnePlus,Nord 2,Reading,Chrome,Low,Low,0.17
+9990020715,Latha L,28,M,South,Bengaluru,Doctor,Married,medium,Realme,9i,Music,Netflix,High,Low,0.09
+9990020716,Naveen R,22,F,South,Hyderabad,Sales Executive,Married,low,Apple,iPhone 13,Music,Netflix,Low,High,0.31
+9990020717,Manoj V,48,M,East,Bhubaneswar,Consultant,Single,low,Apple,iPhone 13,Streaming,Instagram,Medium,High,0.36
+9990020718,Anu N,40,F,North,Chandigarh,Consultant,Single,medium,Samsung,Galaxy S21,Gaming,Instagram,High,Low,0.13
+9990020719,Rita R,45,M,East,Patna,Designer,Married,high,Xiaomi,Mi 11,Social Media,Instagram,Medium,High,0.27
+9990020720,Kiran T,44,F,West,Ahmedabad,Engineer,Married,low,Samsung,Galaxy A34,Travel,Instagram,High,Low,0.42
+9990020721,Naveen L,38,F,West,Pune,Designer,Single,low,Xiaomi,Redmi 10,Music,PUBG,Low,High,0.47
+9990020722,Divya G,55,M,North,Jaipur,Consultant,Married,medium,Xiaomi,Mi 11,Reading,Netflix,Medium,High,0.48
+9990020723,Latha R,52,F,East,Patna,Doctor,Married,low,Apple,iPhone 15,Travel,PUBG,Medium,Low,0.24
+9990020724,Vijay S,41,M,East,Ranchi,Designer,Single,high,Realme,8 Pro,Streaming,PUBG,Low,Low,0.26
+9990020725,Kiran T,58,F,South,Hyderabad,Engineer,Single,low,Xiaomi,Redmi 10,Music,Netflix,Medium,Medium,0.32
+9990020726,Manoj G,55,F,East,Patna,Designer,Single,low,Apple,iPhone 12,Travel,PUBG,Medium,High,0.36
+9990020727,Manoj M,19,M,South,Coimbatore,Student,Married,high,Realme,9i,Social Media,Netflix,Medium,High,0.44
+9990020728,Dinesh S,45,M,North,Delhi,Teacher,Single,medium,Apple,iPhone 13,Reading,PUBG,Low,Low,0.39
+9990020729,Harish R,28,F,South,Bengaluru,Doctor,Single,medium,OnePlus,8T,Gaming,Chrome,High,High,0.3
+9990020730,Shalini T,42,M,South,Hyderabad,Designer,Married,low,Xiaomi,Redmi 12,Travel,YouTube,Medium,Medium,0.4
+9990020731,Suresh L,50,M,South,Hyderabad,Doctor,Married,medium,Apple,iPhone 13,Social Media,Chrome,High,High,0.11
+9990020732,Manoj R,30,M,West,Ahmedabad,Doctor,Single,high,Apple,iPhone 13,Streaming,YouTube,Low,High,0.15
+9990020733,Rita S,33,F,North,Chandigarh,Doctor,Married,low,Apple,iPhone 15,Browsing,PUBG,Medium,High,0.28
+9990020734,Rita V,28,M,West,Mumbai,Designer,Married,low,Xiaomi,Redmi 10,Streaming,PUBG,High,Low,0.46
+9990020735,Anu K,51,F,South,Coimbatore,Consultant,Married,medium,Realme,9i,Gaming,PUBG,Low,Low,0.41
+9990020736,Arun S,46,M,East,Kolkata,Student,Married,high,Apple,iPhone 15,Browsing,Instagram,High,High,0.38
+9990020737,Rita T,31,M,South,Bengaluru,Designer,Married,low,Xiaomi,Mi 11,Streaming,Netflix,Medium,High,0.44
+9990020738,Rita P,37,M,North,Lucknow,Designer,Married,high,Samsung,Galaxy S22,Music,YouTube,Medium,High,0.35
+9990020739,Vijay S,29,F,West,Mumbai,Designer,Married,medium,Xiaomi,Redmi 10,Gaming,Instagram,High,Medium,0.29
+9990020740,Anu P,32,M,West,Pune,Sales Executive,Single,medium,Realme,9i,Gaming,PUBG,High,Low,0.23
+9990020741,Meera G,22,M,East,Kolkata,Designer,Married,high,Realme,8 Pro,Reading,Netflix,Medium,Medium,0.4
+9990020742,Harish R,55,F,South,Coimbatore,Engineer,Single,low,OnePlus,8T,Gaming,Instagram,High,High,0.12
+9990020743,Anu T,44,F,West,Pune,Designer,Married,high,OnePlus,9 Pro,Reading,Chrome,Low,Medium,0.39
+9990020744,Manoj M,56,F,West,Pune,Consultant,Single,high,Xiaomi,Mi 11,Reading,Chrome,High,High,0.33
+9990020745,Manoj L,21,F,East,Kolkata,Engineer,Single,high,Xiaomi,Redmi 10,Reading,PUBG,High,High,0.08
+9990020746,Kavya G,44,M,East,Bhubaneswar,Student,Married,high,Xiaomi,Redmi 10,Browsing,PUBG,High,High,0.06
+9990020747,Priya N,58,M,East,Kolkata,Manager,Married,high,Realme,8 Pro,Social Media,PUBG,High,High,0.42
+9990020748,Naveen V,40,F,West,Pune,Designer,Married,low,Xiaomi,Mi 11,Music,Chrome,Medium,Medium,0.25
+9990020749,Manoj N,40,F,East,Kolkata,Engineer,Single,low,Realme,9i,Streaming,Chrome,Low,Medium,0.3
+9990020750,Arun L,36,M,East,Patna,Designer,Single,high,Realme,8 Pro,Reading,YouTube,Low,Medium,0.28
+9990020751,Anu V,27,M,West,Ahmedabad,Doctor,Single,low,Apple,iPhone 12,Gaming,Netflix,Medium,Medium,0.22
+9990020752,Meera R,36,M,East,Patna,Doctor,Married,low,OnePlus,8T,Browsing,Chrome,Low,Low,0.19
+9990020753,Dinesh N,33,F,North,Chandigarh,Engineer,Single,low,Apple,iPhone 14,Music,Chrome,Medium,High,0.15
+9990020754,Shalini G,48,M,South,Coimbatore,Designer,Married,low,Realme,9i,Streaming,Instagram,Low,Low,0.05
+9990020755,Sneha M,43,M,South,Chennai,Sales Executive,Married,low,OnePlus,Nord 2,Browsing,Netflix,Low,Low,0.18
+9990020756,Arun T,33,F,North,Delhi,Designer,Married,low,Apple,iPhone 13,Reading,PUBG,High,Medium,0.22
+9990020757,Latha R,46,F,North,Lucknow,Engineer,Married,low,Apple,iPhone 12,Reading,YouTube,High,High,0.11
+9990020758,Divya P,28,M,East,Patna,Teacher,Single,medium,Xiaomi,Mi 11,Social Media,PUBG,Medium,Medium,0.06
+9990020759,Sneha M,48,M,East,Kolkata,Manager,Married,medium,OnePlus,Nord 2,Social Media,YouTube,Medium,Medium,0.45
+9990020760,Anita K,60,M,South,Coimbatore,Student,Married,medium,Xiaomi,Redmi 12,Social Media,Chrome,Low,Low,0.46
+9990020761,Anu P,34,F,East,Bhubaneswar,Manager,Single,high,Samsung,Galaxy S21,Streaming,Chrome,Medium,Medium,0.18
+9990020762,Suresh N,21,M,North,Jaipur,Designer,Married,low,Samsung,A52,Social Media,PUBG,High,High,0.25
+9990020763,Anita P,34,F,South,Bengaluru,Sales Executive,Married,medium,OnePlus,9 Pro,Browsing,PUBG,Medium,Low,0.33
+9990020764,Divya M,39,F,West,Mumbai,Designer,Married,high,Xiaomi,Mi 11,Reading,PUBG,Low,Medium,0.36
+9990020765,Suresh S,57,F,West,Mumbai,Designer,Married,high,Samsung,Galaxy A34,Gaming,Chrome,Low,High,0.1
+9990020766,Arun S,22,F,West,Pune,Manager,Single,low,Samsung,A52,Browsing,Chrome,Low,Medium,0.09
+9990020767,Anita G,36,M,East,Ranchi,Engineer,Married,high,Apple,iPhone 14,Reading,Chrome,Low,Low,0.39
+9990020768,Divya T,51,M,South,Hyderabad,Sales Executive,Single,high,Realme,8 Pro,Reading,Instagram,Low,Low,0.32
+9990020769,Naveen R,32,M,North,Jaipur,Manager,Married,medium,OnePlus,8T,Streaming,YouTube,Low,Low,0.06
+9990020770,Rohit L,45,F,South,Chennai,Designer,Married,high,Realme,8 Pro,Streaming,Netflix,Low,High,0.19
+9990020771,Manoj M,26,F,South,Coimbatore,Sales Executive,Married,low,Apple,iPhone 13,Travel,YouTube,High,Medium,0.33
+9990020772,Latha G,48,F,West,Ahmedabad,Doctor,Married,low,Apple,iPhone 15,Browsing,Netflix,Medium,Low,0.49
+9990020773,Arun R,36,F,North,Chandigarh,Consultant,Married,medium,Xiaomi,Redmi 10,Streaming,Netflix,Low,Low,0.48
+9990020774,Arun S,28,M,East,Patna,Manager,Married,low,Samsung,Galaxy S21,Travel,Netflix,Low,Medium,0.09
+9990020775,Naveen K,42,M,East,Bhubaneswar,Designer,Married,high,Xiaomi,Redmi 12,Reading,PUBG,Low,Low,0.11
+9990020776,Anu V,31,F,North,Jaipur,Consultant,Single,high,Xiaomi,Redmi 10,Reading,Chrome,Low,High,0.2
+9990020777,Anu V,42,F,West,Surat,Teacher,Married,low,Xiaomi,Mi 11,Streaming,Netflix,Medium,Medium,0.28
+9990020778,Divya K,30,F,East,Ranchi,Manager,Single,medium,Samsung,A52,Music,PUBG,Low,High,0.1
+9990020779,Dinesh L,29,M,West,Mumbai,Consultant,Single,low,Xiaomi,Redmi 12,Social Media,Netflix,Medium,Medium,0.32
+9990020780,Shalini M,46,F,West,Pune,Teacher,Married,medium,OnePlus,8T,Reading,Netflix,High,Low,0.34
+9990020781,Meera P,44,F,North,Jaipur,Teacher,Single,low,Realme,9i,Travel,Netflix,High,Low,0.27
+9990020782,Rita K,41,M,East,Kolkata,Teacher,Married,high,Xiaomi,Redmi 10,Music,Instagram,Low,Medium,0.13
+9990020783,Priya G,30,M,South,Bengaluru,Engineer,Married,low,Xiaomi,Mi 11,Streaming,Instagram,Medium,High,0.32
+9990020784,Kavya V,19,F,East,Kolkata,Doctor,Married,medium,Apple,iPhone 15,Gaming,YouTube,Low,Low,0.12
+9990020785,Harish P,49,M,East,Kolkata,Student,Married,high,OnePlus,Nord 2,Reading,PUBG,High,Medium,0.43
+9990020786,Anita M,35,F,West,Surat,Consultant,Single,high,Apple,iPhone 12,Music,Netflix,High,High,0.05
+9990020787,Divya V,55,F,West,Surat,Sales Executive,Married,low,Xiaomi,Redmi 12,Social Media,PUBG,High,Low,0.35
+9990020788,Arun V,49,F,North,Jaipur,Doctor,Married,high,Xiaomi,Redmi 10,Travel,YouTube,High,High,0.08
+9990020789,Naveen K,41,M,South,Bengaluru,Consultant,Married,high,Xiaomi,Mi 11,Browsing,PUBG,Medium,High,0.16
+9990020790,Harish N,50,M,North,Jaipur,Engineer,Single,medium,Xiaomi,Redmi 12,Browsing,YouTube,Low,Low,0.18
+9990020791,Anu V,20,M,West,Pune,Consultant,Single,high,Apple,iPhone 15,Music,YouTube,Medium,Medium,0.15
+9990020792,Shalini P,60,M,South,Hyderabad,Doctor,Single,low,Apple,iPhone 12,Travel,Netflix,Low,Medium,0.43
+9990020793,Vijay K,29,M,West,Pune,Student,Married,low,Samsung,A52,Streaming,YouTube,Medium,Medium,0.32
+9990020794,Harish L,57,M,South,Chennai,Sales Executive,Married,low,Samsung,A52,Streaming,Netflix,High,High,0.1
+9990020795,Rohit S,38,M,North,Jaipur,Sales Executive,Married,low,Realme,8 Pro,Music,Chrome,Low,Low,0.37
+9990020796,Naveen S,37,F,South,Hyderabad,Sales Executive,Married,low,Samsung,Galaxy S21,Reading,YouTube,High,Medium,0.29
+9990020797,Manoj P,46,F,West,Mumbai,Student,Single,medium,Xiaomi,Mi 11,Browsing,Instagram,High,Low,0.09
+9990020798,Harish T,27,F,North,Delhi,Doctor,Married,medium,Realme,8 Pro,Browsing,PUBG,High,High,0.05
+9990020799,Rita K,27,M,West,Mumbai,Engineer,Single,high,Xiaomi,Mi 11,Reading,Chrome,High,High,0.36
+9990020800,Naveen V,25,M,South,Chennai,Doctor,Single,low,Xiaomi,Redmi 12,Music,Instagram,High,High,0.34
+9990020801,Anita G,35,F,North,Delhi,Doctor,Single,low,Apple,iPhone 15,Reading,Chrome,Low,High,0.37
+9990020802,Priya T,60,M,South,Bengaluru,Teacher,Married,medium,OnePlus,9 Pro,Social Media,Instagram,Low,Medium,0.26
+9990020803,Suresh T,29,M,North,Jaipur,Sales Executive,Single,low,Apple,iPhone 11,Travel,Netflix,Low,Low,0.37
+9990020804,Arun M,32,M,South,Coimbatore,Engineer,Single,low,Apple,iPhone 15,Streaming,PUBG,Low,Medium,0.33
+9990020805,Anu R,30,F,West,Ahmedabad,Designer,Single,medium,Xiaomi,Redmi 12,Travel,PUBG,Medium,High,0.22
+9990020806,Vijay R,41,M,East,Ranchi,Sales Executive,Single,high,Realme,8 Pro,Reading,Chrome,Medium,High,0.26
+9990020807,Shalini R,41,F,South,Coimbatore,Manager,Single,medium,Realme,8 Pro,Reading,Netflix,Medium,High,0.33
+9990020808,Ravi P,52,F,North,Lucknow,Teacher,Married,low,Apple,iPhone 13,Travel,YouTube,Medium,Medium,0.39
+9990020809,Rita G,46,F,South,Bengaluru,Teacher,Single,medium,Apple,iPhone 14,Travel,Netflix,Medium,Low,0.13
+9990020810,Rita M,38,F,North,Chandigarh,Doctor,Single,medium,Xiaomi,Mi 11,Streaming,YouTube,Low,Medium,0.15
+9990020811,Rita V,28,F,South,Coimbatore,Teacher,Married,medium,Apple,iPhone 11,Browsing,YouTube,High,High,0.42
+9990020812,Anita G,59,F,East,Patna,Doctor,Married,low,Apple,iPhone 12,Travel,PUBG,High,Medium,0.28
+9990020813,Rohit T,47,F,North,Delhi,Designer,Married,high,Samsung,Galaxy S22,Streaming,Instagram,High,High,0.19
+9990020814,Priya V,59,F,East,Bhubaneswar,Designer,Married,high,Realme,8 Pro,Social Media,Netflix,Medium,High,0.33
+9990020815,Dinesh R,52,M,East,Patna,Doctor,Married,high,Apple,iPhone 15,Music,PUBG,Medium,Medium,0.27
+9990020816,Rohit S,60,F,South,Bengaluru,Manager,Single,medium,Xiaomi,Redmi 12,Browsing,Chrome,Medium,High,0.42
+9990020817,Shalini V,25,M,South,Bengaluru,Doctor,Married,low,Xiaomi,Redmi 10,Reading,PUBG,Low,High,0.24
+9990020818,Kavya K,23,M,West,Mumbai,Designer,Married,medium,Xiaomi,Mi 11,Travel,Chrome,Low,Low,0.15
+9990020819,Anu S,28,F,East,Bhubaneswar,Consultant,Married,high,Apple,iPhone 13,Reading,Instagram,High,Low,0.24
+9990020820,Suresh M,33,F,North,Delhi,Engineer,Single,low,Realme,8 Pro,Music,PUBG,Low,Low,0.41
+9990020821,Sneha S,36,F,South,Bengaluru,Consultant,Single,low,Realme,8 Pro,Travel,Netflix,Medium,High,0.18
+9990020822,Anu G,54,M,East,Kolkata,Designer,Married,low,Xiaomi,Redmi 12,Reading,YouTube,Medium,Medium,0.41
+9990020823,Kavya V,40,F,East,Patna,Teacher,Single,low,Realme,8 Pro,Music,Netflix,High,High,0.31
+9990020824,Priya S,55,F,East,Bhubaneswar,Teacher,Single,medium,Realme,8 Pro,Gaming,Netflix,Medium,High,0.23
+9990020825,Anita T,30,M,South,Coimbatore,Designer,Married,medium,Apple,iPhone 11,Streaming,Instagram,High,Low,0.07
+9990020826,Divya T,51,F,South,Bengaluru,Engineer,Single,high,Xiaomi,Mi 11,Streaming,Instagram,Medium,Low,0.09
+9990020827,Rohit T,53,F,East,Ranchi,Sales Executive,Single,low,Xiaomi,Mi 11,Music,YouTube,Low,Medium,0.17
+9990020828,Suresh G,54,M,East,Ranchi,Teacher,Married,high,Realme,8 Pro,Travel,PUBG,Low,Low,0.39
+9990020829,Rohit R,56,F,North,Jaipur,Student,Single,high,Xiaomi,Redmi 10,Gaming,YouTube,High,Medium,0.42
+9990020830,Manoj L,51,M,West,Mumbai,Designer,Married,low,Xiaomi,Mi 11,Reading,Netflix,High,Low,0.42
+9990020831,Shalini T,45,M,North,Delhi,Consultant,Married,medium,Samsung,Galaxy A34,Streaming,YouTube,Medium,Medium,0.47
+9990020832,Kavya V,44,M,North,Chandigarh,Consultant,Married,medium,Apple,iPhone 15,Streaming,PUBG,Low,Medium,0.47
+9990020833,Meera N,48,F,West,Ahmedabad,Student,Single,high,Realme,8 Pro,Reading,Netflix,Low,Low,0.49
+9990020834,Shalini K,31,M,West,Ahmedabad,Consultant,Single,high,Realme,8 Pro,Browsing,Instagram,Medium,High,0.2
+9990020835,Anita M,32,M,North,Chandigarh,Doctor,Married,high,Samsung,Galaxy A34,Reading,Instagram,Medium,Low,0.41
+9990020836,Dinesh L,18,F,North,Jaipur,Doctor,Married,medium,Realme,9i,Travel,Chrome,Low,High,0.32
+9990020837,Anita N,43,M,West,Mumbai,Student,Married,medium,Samsung,Galaxy S22,Browsing,Chrome,Medium,High,0.29
+9990020838,Vijay L,53,M,East,Bhubaneswar,Consultant,Married,high,Apple,iPhone 15,Gaming,PUBG,Low,Low,0.17
+9990020839,Rohit K,58,M,North,Jaipur,Engineer,Single,high,OnePlus,Nord 2,Gaming,Chrome,Medium,Low,0.3
+9990020840,Rita K,26,F,West,Pune,Designer,Single,medium,Xiaomi,Redmi 12,Reading,Netflix,High,High,0.44
+9990020841,Priya L,30,F,North,Lucknow,Doctor,Married,low,Apple,iPhone 14,Browsing,Netflix,Medium,Medium,0.28
+9990020842,Meera L,39,M,South,Bengaluru,Consultant,Single,high,Samsung,Galaxy S21,Reading,Netflix,Low,Low,0.48
+9990020843,Arun N,43,M,South,Bengaluru,Manager,Single,high,Realme,8 Pro,Social Media,YouTube,Medium,High,0.38
+9990020844,Dinesh R,26,F,East,Patna,Doctor,Single,high,Apple,iPhone 13,Social Media,Instagram,Medium,Low,0.38
+9990020845,Ravi M,26,M,South,Hyderabad,Consultant,Single,high,Samsung,A52,Reading,PUBG,High,Low,0.45
+9990020846,Kavya V,45,F,North,Lucknow,Student,Married,high,Samsung,Galaxy S21,Streaming,YouTube,Medium,Medium,0.32
+9990020847,Suresh L,19,F,West,Pune,Designer,Single,medium,Xiaomi,Redmi 10,Browsing,Netflix,Medium,Low,0.48
+9990020848,Latha V,55,M,East,Ranchi,Engineer,Married,low,OnePlus,9 Pro,Browsing,Instagram,Low,High,0.42
+9990020849,Divya T,47,M,North,Delhi,Manager,Married,medium,OnePlus,9 Pro,Travel,PUBG,High,Low,0.35
+9990020850,Divya T,45,M,East,Patna,Consultant,Married,medium,Samsung,A52,Browsing,Instagram,Medium,High,0.23
+9990020851,Ravi T,53,F,East,Ranchi,Designer,Married,low,Realme,9i,Streaming,Instagram,Low,High,0.25
+9990020852,Rita K,36,F,North,Jaipur,Teacher,Single,high,Apple,iPhone 12,Social Media,YouTube,Medium,Low,0.22
+9990020853,Kavya T,52,F,North,Chandigarh,Designer,Married,high,OnePlus,Nord 2,Browsing,Chrome,Low,Medium,0.4
+9990020854,Rita M,50,M,South,Hyderabad,Engineer,Married,high,OnePlus,Nord 2,Reading,PUBG,Medium,Low,0.12
+9990020855,Harish R,34,F,North,Lucknow,Teacher,Married,medium,OnePlus,Nord 2,Gaming,YouTube,High,High,0.05
+9990020856,Priya P,24,M,West,Ahmedabad,Sales Executive,Single,high,Apple,iPhone 12,Browsing,PUBG,Low,Low,0.22
+9990020857,Harish M,34,F,North,Lucknow,Manager,Married,high,Apple,iPhone 11,Browsing,PUBG,High,Medium,0.12
+9990020858,Anita R,47,F,East,Kolkata,Consultant,Single,high,Apple,iPhone 15,Music,PUBG,Low,High,0.14
+9990020859,Sneha G,48,F,East,Kolkata,Teacher,Married,medium,OnePlus,8T,Music,Chrome,Medium,Low,0.34
+9990020860,Suresh G,59,F,East,Patna,Designer,Single,high,Realme,8 Pro,Browsing,Chrome,Medium,High,0.32
+9990020861,Sneha R,51,F,East,Ranchi,Student,Married,medium,Apple,iPhone 11,Social Media,Instagram,Low,High,0.32
+9990020862,Shalini L,57,F,South,Coimbatore,Doctor,Single,low,Apple,iPhone 12,Gaming,Chrome,High,Low,0.23
+9990020863,Priya P,48,M,West,Surat,Engineer,Single,high,Samsung,Galaxy A34,Streaming,PUBG,High,Low,0.18
+9990020864,Priya P,43,F,North,Delhi,Student,Married,medium,Samsung,Galaxy A34,Gaming,Chrome,Low,Medium,0.35
+9990020865,Shalini P,44,M,West,Surat,Student,Married,medium,Xiaomi,Redmi 10,Travel,YouTube,High,Low,0.09
+9990020866,Kavya N,52,M,South,Bengaluru,Engineer,Single,high,OnePlus,8T,Travel,Instagram,Low,High,0.13
+9990020867,Kiran V,49,M,South,Coimbatore,Teacher,Single,high,Realme,9i,Social Media,YouTube,High,High,0.21
+9990020868,Ravi K,23,M,South,Chennai,Teacher,Single,medium,Realme,9i,Gaming,YouTube,High,Medium,0.32
+9990020869,Arun S,23,M,East,Patna,Teacher,Single,low,Apple,iPhone 15,Music,Netflix,High,Medium,0.2
+9990020870,Dinesh M,31,F,South,Bengaluru,Doctor,Married,medium,OnePlus,8T,Browsing,Netflix,Low,Low,0.14
+9990020871,Sneha P,38,M,North,Jaipur,Designer,Single,medium,OnePlus,9 Pro,Reading,Chrome,Medium,Low,0.18
+9990020872,Vijay K,39,M,South,Chennai,Engineer,Single,low,Samsung,A52,Browsing,Chrome,Low,High,0.08
+9990020873,Kiran V,54,M,West,Ahmedabad,Teacher,Married,high,Realme,9i,Travel,YouTube,Low,Low,0.16
+9990020874,Priya S,33,M,West,Pune,Consultant,Married,high,Apple,iPhone 14,Reading,Instagram,Low,High,0.48
+9990020875,Meera K,21,F,West,Pune,Consultant,Married,low,Xiaomi,Redmi 10,Reading,Chrome,Medium,High,0.12
+9990020876,Dinesh S,39,M,East,Patna,Engineer,Married,low,OnePlus,Nord 2,Social Media,Chrome,Medium,Medium,0.09
+9990020877,Arun R,43,M,North,Lucknow,Doctor,Single,medium,Samsung,Galaxy A34,Browsing,Netflix,High,High,0.29
+9990020878,Shalini V,41,F,South,Coimbatore,Engineer,Single,low,OnePlus,8T,Travel,YouTube,High,Medium,0.09
+9990020879,Shalini T,31,F,South,Hyderabad,Sales Executive,Single,medium,Realme,9i,Browsing,PUBG,Low,Low,0.4
+9990020880,Divya P,52,M,West,Mumbai,Doctor,Single,medium,Apple,iPhone 13,Reading,Chrome,Medium,Medium,0.09
+9990020881,Rita V,34,M,North,Lucknow,Designer,Single,low,Xiaomi,Redmi 10,Streaming,Netflix,High,Low,0.09
+9990020882,Suresh K,59,M,West,Pune,Teacher,Single,high,Apple,iPhone 15,Reading,Instagram,High,Medium,0.08
+9990020883,Rita V,55,F,South,Hyderabad,Consultant,Single,low,Samsung,Galaxy S21,Travel,YouTube,Low,High,0.5
+9990020884,Divya G,37,M,South,Hyderabad,Teacher,Single,medium,Xiaomi,Redmi 10,Gaming,Chrome,Medium,High,0.11
+9990020885,Anu T,46,F,West,Mumbai,Consultant,Single,medium,Apple,iPhone 13,Streaming,PUBG,Low,Medium,0.28
+9990020886,Kavya M,59,M,North,Jaipur,Sales Executive,Married,medium,Realme,9i,Streaming,PUBG,Medium,Medium,0.08
+9990020887,Rita L,51,M,East,Bhubaneswar,Student,Married,low,OnePlus,Nord 2,Streaming,YouTube,High,Medium,0.38
+9990020888,Rita V,60,M,West,Ahmedabad,Engineer,Single,low,Xiaomi,Redmi 12,Social Media,PUBG,Medium,High,0.48
+9990020889,Meera R,49,M,West,Ahmedabad,Sales Executive,Married,low,Xiaomi,Redmi 12,Music,Netflix,High,High,0.48
+9990020890,Meera V,30,M,East,Kolkata,Consultant,Married,high,Samsung,Galaxy A34,Streaming,PUBG,High,Low,0.09
+9990020891,Kiran M,44,M,East,Bhubaneswar,Consultant,Single,low,Realme,8 Pro,Gaming,Instagram,Low,Medium,0.1
+9990020892,Priya G,52,F,North,Lucknow,Student,Single,medium,Apple,iPhone 14,Reading,Chrome,Medium,Low,0.48
+9990020893,Priya G,59,F,West,Mumbai,Doctor,Married,high,Realme,8 Pro,Gaming,YouTube,Medium,Medium,0.34
+9990020894,Priya V,57,F,East,Ranchi,Engineer,Single,medium,Realme,8 Pro,Gaming,Netflix,High,High,0.37
+9990020895,Harish T,53,M,West,Mumbai,Sales Executive,Single,high,Apple,iPhone 12,Browsing,Netflix,Medium,Medium,0.1
+9990020896,Dinesh N,26,M,North,Chandigarh,Manager,Single,low,OnePlus,8T,Travel,Instagram,Low,High,0.46
+9990020897,Harish M,56,M,North,Jaipur,Doctor,Single,low,OnePlus,Nord 2,Music,Netflix,Low,Medium,0.17
+9990020898,Rohit M,50,M,East,Patna,Doctor,Single,high,Apple,iPhone 11,Reading,Netflix,Medium,Medium,0.37
+9990020899,Harish G,24,M,East,Patna,Designer,Married,medium,OnePlus,Nord 2,Streaming,Instagram,Medium,Medium,0.48
+9990020900,Harish T,30,F,South,Bengaluru,Sales Executive,Married,low,Realme,9i,Streaming,Chrome,High,Low,0.16
+9990020901,Anita K,48,F,West,Pune,Manager,Single,medium,Samsung,Galaxy S21,Browsing,Netflix,Medium,Low,0.18
+9990020902,Arun V,45,F,North,Chandigarh,Engineer,Married,low,Xiaomi,Redmi 12,Social Media,YouTube,Low,High,0.3
+9990020903,Meera L,29,M,North,Lucknow,Consultant,Married,high,Apple,iPhone 11,Streaming,Chrome,Medium,High,0.2
+9990020904,Anita P,23,F,North,Lucknow,Doctor,Single,medium,Xiaomi,Redmi 10,Reading,Instagram,Low,High,0.48
+9990020905,Ravi M,27,F,South,Hyderabad,Student,Married,high,Apple,iPhone 11,Social Media,Netflix,High,Medium,0.3
+9990020906,Naveen T,23,F,South,Coimbatore,Engineer,Single,medium,OnePlus,8T,Social Media,Chrome,High,Low,0.19
+9990020907,Dinesh N,52,M,West,Surat,Designer,Married,low,Apple,iPhone 14,Travel,Instagram,High,High,0.38
+9990020908,Anu M,18,F,South,Bengaluru,Teacher,Married,medium,Apple,iPhone 14,Social Media,YouTube,Low,Low,0.44
+9990020909,Sneha L,23,M,South,Chennai,Manager,Single,medium,Samsung,A52,Social Media,PUBG,Medium,Medium,0.26
+9990020910,Meera R,30,F,North,Chandigarh,Consultant,Single,medium,Xiaomi,Mi 11,Gaming,Netflix,Medium,Low,0.05
+9990020911,Arun S,24,M,West,Mumbai,Consultant,Married,low,Apple,iPhone 12,Browsing,Chrome,Low,Medium,0.08
+9990020912,Suresh V,31,M,North,Jaipur,Designer,Single,high,Apple,iPhone 15,Travel,PUBG,High,High,0.46
+9990020913,Arun T,41,M,East,Kolkata,Doctor,Married,medium,Apple,iPhone 11,Streaming,YouTube,High,High,0.3
+9990020914,Manoj S,45,M,North,Chandigarh,Sales Executive,Single,low,OnePlus,Nord 2,Gaming,Chrome,Low,Low,0.15
+9990020915,Naveen T,42,M,East,Bhubaneswar,Manager,Married,medium,Xiaomi,Redmi 10,Music,Netflix,Medium,High,0.07
+9990020916,Dinesh T,31,M,South,Hyderabad,Engineer,Single,high,Apple,iPhone 12,Browsing,PUBG,High,High,0.25
+9990020917,Anita R,38,M,South,Hyderabad,Manager,Single,low,Samsung,A52,Browsing,Chrome,High,High,0.49
+9990020918,Manoj G,21,F,South,Coimbatore,Manager,Single,high,Realme,9i,Streaming,PUBG,High,Low,0.45
+9990020919,Latha K,30,F,North,Jaipur,Engineer,Single,medium,Xiaomi,Mi 11,Reading,Netflix,High,Low,0.25
+9990020920,Naveen T,24,F,South,Coimbatore,Teacher,Married,low,Apple,iPhone 12,Gaming,Chrome,Medium,Low,0.42
+9990020921,Vijay V,47,M,North,Lucknow,Student,Married,low,Realme,8 Pro,Music,PUBG,Low,Medium,0.12
+9990020922,Sneha L,23,M,North,Chandigarh,Teacher,Single,high,Xiaomi,Mi 11,Streaming,Instagram,High,Medium,0.18
+9990020923,Manoj K,52,M,East,Patna,Sales Executive,Single,low,Realme,9i,Social Media,Netflix,High,Low,0.25
+9990020924,Divya T,42,F,West,Surat,Designer,Single,high,OnePlus,8T,Gaming,Netflix,Medium,Medium,0.14
+9990020925,Kiran N,18,M,South,Coimbatore,Doctor,Married,medium,Xiaomi,Redmi 12,Social Media,PUBG,Medium,Low,0.38
+9990020926,Naveen R,20,M,West,Surat,Student,Married,low,Apple,iPhone 13,Browsing,Chrome,Medium,Low,0.33
+9990020927,Shalini P,34,M,East,Patna,Engineer,Married,high,OnePlus,9 Pro,Social Media,PUBG,Medium,High,0.16
+9990020928,Vijay V,35,F,East,Ranchi,Manager,Single,high,Samsung,Galaxy S21,Browsing,Chrome,Low,Low,0.15
+9990020929,Suresh K,43,F,East,Patna,Teacher,Single,medium,Realme,8 Pro,Browsing,Chrome,Medium,High,0.38
+9990020930,Anu G,50,F,South,Bengaluru,Engineer,Married,medium,Xiaomi,Redmi 10,Music,Instagram,High,Low,0.29
+9990020931,Rita P,60,F,North,Chandigarh,Manager,Married,low,OnePlus,8T,Browsing,Netflix,High,High,0.08
+9990020932,Manoj P,53,F,East,Bhubaneswar,Doctor,Married,low,Xiaomi,Mi 11,Reading,PUBG,Low,Low,0.24
+9990020933,Latha L,60,M,East,Patna,Sales Executive,Single,low,Realme,9i,Streaming,Netflix,Medium,Medium,0.22
+9990020934,Rohit N,40,F,North,Jaipur,Teacher,Single,medium,Realme,8 Pro,Reading,Instagram,Medium,Medium,0.15
+9990020935,Meera P,41,M,West,Surat,Consultant,Married,low,Apple,iPhone 13,Travel,Netflix,Medium,Low,0.31
+9990020936,Ravi P,42,F,North,Lucknow,Consultant,Single,low,Xiaomi,Redmi 12,Streaming,YouTube,Medium,Low,0.29
+9990020937,Sneha P,52,F,East,Kolkata,Teacher,Married,medium,OnePlus,Nord 2,Music,Chrome,Low,Medium,0.25
+9990020938,Kiran S,27,M,West,Mumbai,Designer,Single,high,Realme,9i,Social Media,Chrome,Low,Medium,0.44
+9990020939,Kiran L,58,M,South,Hyderabad,Student,Married,medium,Xiaomi,Redmi 10,Social Media,PUBG,Low,Medium,0.18
+9990020940,Shalini V,29,F,East,Kolkata,Sales Executive,Married,low,Xiaomi,Mi 11,Browsing,Chrome,Medium,Medium,0.18
+9990020941,Rohit P,36,M,West,Ahmedabad,Engineer,Married,low,Xiaomi,Redmi 12,Gaming,Chrome,High,Medium,0.36
+9990020942,Harish V,50,M,East,Bhubaneswar,Teacher,Married,low,Xiaomi,Mi 11,Streaming,YouTube,Medium,High,0.08
+9990020943,Suresh L,33,F,East,Kolkata,Consultant,Married,low,Realme,9i,Travel,Netflix,High,Medium,0.45
+9990020944,Anita G,55,F,East,Patna,Manager,Married,high,Xiaomi,Redmi 12,Browsing,Instagram,Low,Medium,0.37
+9990020945,Priya N,59,F,North,Jaipur,Engineer,Single,high,Realme,9i,Gaming,Netflix,High,High,0.36
+9990020946,Rohit L,46,F,East,Patna,Manager,Married,medium,OnePlus,Nord 2,Travel,Netflix,Medium,Medium,0.25
+9990020947,Ravi V,33,M,West,Mumbai,Designer,Single,high,Apple,iPhone 12,Travel,Netflix,Medium,High,0.41
+9990020948,Naveen R,44,M,South,Coimbatore,Engineer,Single,high,Apple,iPhone 14,Browsing,YouTube,Medium,Medium,0.42
+9990020949,Rohit K,19,M,East,Ranchi,Manager,Single,high,Apple,iPhone 13,Reading,Netflix,High,Low,0.2
+9990020950,Dinesh S,46,F,North,Chandigarh,Student,Married,low,Apple,iPhone 13,Gaming,Chrome,Medium,High,0.39
+9990020951,Shalini M,57,F,North,Jaipur,Doctor,Single,medium,Samsung,Galaxy S21,Streaming,Netflix,Medium,High,0.33
+9990020952,Vijay M,33,M,North,Jaipur,Sales Executive,Single,low,Realme,8 Pro,Travel,PUBG,Low,Low,0.44
+9990020953,Harish S,25,M,East,Kolkata,Designer,Married,low,Samsung,Galaxy S22,Social Media,Instagram,Low,Low,0.46
+9990020954,Meera T,41,M,North,Chandigarh,Sales Executive,Married,medium,Apple,iPhone 13,Gaming,YouTube,Medium,High,0.3
+9990020955,Meera K,25,F,North,Jaipur,Student,Married,medium,Realme,8 Pro,Music,Chrome,Low,Low,0.36
+9990020956,Meera G,28,F,North,Lucknow,Consultant,Single,low,Xiaomi,Mi 11,Browsing,Chrome,Low,Medium,0.21
+9990020957,Harish G,25,F,East,Kolkata,Doctor,Single,low,OnePlus,Nord 2,Streaming,Instagram,Low,High,0.31
+9990020958,Dinesh V,21,F,North,Jaipur,Engineer,Single,medium,Xiaomi,Redmi 12,Travel,Instagram,Medium,Medium,0.3
+9990020959,Harish N,36,F,South,Bengaluru,Consultant,Single,low,OnePlus,Nord 2,Reading,Instagram,Medium,Medium,0.11
+9990020960,Manoj S,56,M,East,Patna,Student,Married,medium,Apple,iPhone 15,Gaming,YouTube,Medium,Low,0.05
+9990020961,Meera R,48,F,West,Ahmedabad,Teacher,Married,medium,OnePlus,9 Pro,Streaming,Chrome,Low,High,0.35
+9990020962,Manoj K,36,F,West,Pune,Sales Executive,Married,medium,Apple,iPhone 15,Travel,Instagram,Medium,High,0.41
+9990020963,Kiran T,23,M,North,Delhi,Doctor,Single,high,Samsung,A52,Reading,Netflix,Medium,Low,0.44
+9990020964,Meera P,38,F,North,Jaipur,Engineer,Single,high,Samsung,Galaxy S22,Browsing,Instagram,Medium,High,0.37
+9990020965,Kavya V,46,M,North,Lucknow,Teacher,Single,medium,Xiaomi,Redmi 12,Gaming,Netflix,Medium,High,0.14
+9990020966,Suresh P,25,M,East,Kolkata,Teacher,Married,low,OnePlus,8T,Music,YouTube,Low,Medium,0.1
+9990020967,Anita P,25,F,South,Chennai,Designer,Married,medium,Samsung,Galaxy S21,Streaming,Instagram,Low,Low,0.39
+9990020968,Divya R,46,M,North,Delhi,Student,Single,medium,Realme,8 Pro,Social Media,Netflix,Low,High,0.42
+9990020969,Anu M,23,M,North,Jaipur,Student,Married,high,Samsung,Galaxy A34,Reading,Chrome,Medium,High,0.05
+9990020970,Anita N,56,M,West,Ahmedabad,Doctor,Single,high,Samsung,A52,Browsing,YouTube,High,Low,0.26
+9990020971,Arun R,27,M,South,Bengaluru,Doctor,Married,low,Samsung,Galaxy A34,Gaming,YouTube,High,Low,0.45
+9990020972,Latha S,43,F,South,Coimbatore,Consultant,Single,high,Xiaomi,Mi 11,Travel,Netflix,Medium,Medium,0.5
+9990020973,Dinesh P,51,F,West,Pune,Sales Executive,Married,high,Apple,iPhone 14,Browsing,PUBG,Medium,High,0.11
+9990020974,Anita M,36,F,East,Ranchi,Engineer,Married,low,Samsung,Galaxy S21,Reading,Chrome,High,High,0.14
+9990020975,Latha T,27,M,West,Mumbai,Doctor,Single,low,Samsung,Galaxy S21,Travel,Netflix,Low,Low,0.22
+9990020976,Suresh T,23,F,West,Surat,Doctor,Married,low,Apple,iPhone 14,Reading,Chrome,Medium,High,0.23
+9990020977,Kavya K,48,F,West,Ahmedabad,Student,Married,medium,Samsung,Galaxy S22,Reading,Chrome,Medium,High,0.11
+9990020978,Dinesh M,57,M,West,Ahmedabad,Teacher,Married,low,Samsung,A52,Music,Instagram,Low,High,0.37
+9990020979,Rita P,46,F,South,Chennai,Teacher,Single,medium,OnePlus,8T,Music,YouTube,Low,Low,0.34
+9990020980,Manoj N,26,M,South,Coimbatore,Engineer,Single,high,Apple,iPhone 14,Browsing,PUBG,Low,Low,0.43
+9990020981,Naveen L,52,F,North,Chandigarh,Student,Married,high,OnePlus,Nord 2,Streaming,Instagram,Low,Low,0.1
+9990020982,Manoj V,51,F,East,Kolkata,Designer,Married,high,Realme,9i,Travel,Netflix,Low,High,0.37
+9990020983,Priya V,46,M,South,Hyderabad,Manager,Married,high,Apple,iPhone 14,Music,PUBG,Low,Medium,0.08
+9990020984,Naveen G,27,M,East,Kolkata,Engineer,Married,low,Samsung,Galaxy S22,Browsing,PUBG,High,High,0.26
+9990020985,Kavya G,25,M,North,Chandigarh,Manager,Single,medium,Samsung,A52,Gaming,Netflix,Medium,Medium,0.37
+9990020986,Ravi M,45,F,East,Ranchi,Sales Executive,Married,low,Samsung,Galaxy S22,Gaming,PUBG,Medium,Low,0.3
+9990020987,Ravi T,25,M,East,Kolkata,Manager,Married,low,OnePlus,8T,Reading,Instagram,High,High,0.16
+9990020988,Latha N,56,M,East,Bhubaneswar,Student,Married,low,OnePlus,8T,Reading,Netflix,Low,Medium,0.23
+9990020989,Rohit V,60,M,North,Chandigarh,Student,Single,medium,Apple,iPhone 11,Browsing,Chrome,High,Low,0.22
+9990020990,Anu M,56,F,West,Ahmedabad,Engineer,Single,medium,Samsung,Galaxy S22,Music,Chrome,High,High,0.3
+9990020991,Rita N,21,M,South,Bengaluru,Sales Executive,Single,low,Samsung,A52,Music,YouTube,Medium,Medium,0.09
+9990020992,Manoj N,39,M,East,Ranchi,Designer,Married,high,OnePlus,8T,Streaming,PUBG,Medium,High,0.19
+9990020993,Divya M,55,M,South,Bengaluru,Teacher,Single,low,Realme,9i,Social Media,Chrome,Medium,Low,0.17
+9990020994,Meera N,31,M,South,Hyderabad,Consultant,Single,medium,OnePlus,9 Pro,Reading,PUBG,Low,High,0.37
+9990020995,Sneha P,44,F,West,Ahmedabad,Doctor,Single,high,Samsung,Galaxy A34,Gaming,Chrome,High,Medium,0.18
+9990020996,Shalini M,23,F,South,Chennai,Consultant,Married,low,Xiaomi,Mi 11,Gaming,YouTube,Low,Low,0.36
+9990020997,Sneha L,37,M,South,Bengaluru,Designer,Single,high,Xiaomi,Mi 11,Browsing,Instagram,High,Low,0.3
+9990020998,Ravi M,54,M,South,Coimbatore,Manager,Single,medium,OnePlus,8T,Streaming,Chrome,Low,Low,0.28
+9990020999,Arun G,50,F,North,Jaipur,Consultant,Married,medium,Xiaomi,Redmi 12,Music,Netflix,Low,Low,0.14

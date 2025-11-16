@@ -1,0 +1,21 @@
+code,title,description,eligibility_simple,active
+OFR001,Starter Pack,2GB for 7 days,,1
+OFR002,High Value Data,50GB monthly for heavy users,income_bracket=high,1
+OFR003,Streaming Add-on,Extra 10GB for YouTube users,preferred_app=YouTube,1
+OFR004,Gaming Boost,5GB extra gaming data,preferred_app=PUBG,1
+OFR005,Social Media Pack,Unlimited Instagram + Facebook,preferred_app=Instagram,1
+OFR006,Work From Home Pack,15GB daytime data,,1
+OFR007,Voice Unlimited,Unlimited calling for 28 days,,1
+OFR008,Weekend Binge,20GB weekend-only data,min_avg_data_mb=200,1
+OFR009,South Region Special,Discounted pack for South India,region=South,1
+OFR010,Metro City Offer,Extra data for Bengaluru users,city=Bengaluru,1
+OFR011,Apple Device Offer,Data cashback for Apple devices,device_brand=Apple,1
+OFR012,Budget Data 1GB,Low cost 1GB entry pack,income_bracket=low,1
+OFR013,Student Combo,Data + Voice for students,occupation=Student,1
+OFR014,Entertainment Max,High data for streaming users,preferred_app=Netflix,1
+OFR015,Pro Gamer Pack,Low-latency gaming bundle,preferred_app=PUBG,1
+OFR016,Chennai City Offer,City-specific promotion,city=Chennai,1
+OFR017,Premium South Pack,High ARPU South region users,income_bracket=high,1
+OFR018,Loyal User Reward,Bonus data for long-tenure customers,,1
+OFR019,New SIM Bonus,Welcome bonus for new activations,,1
+OFR020,Legacy Plan Example,Inactive legacy offer,,0

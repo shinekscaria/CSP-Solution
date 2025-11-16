@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Customers - CSV Upload + Segmentation + Offers</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+<div class="container py-4">
+
+  <h3>Customers</h3>
+
+  <!-- Top Controls -->
+  <div class="d-flex gap-2 my-3">
+    <a href="index.html" class="btn btn-secondary">Back</a>
+
+    <!-- CSV Upload -->
+    <input id="csvFile" type="file" accept=".csv" class="form-control" style="max-width:300px;">
+    <button id="uploadBtn" class="btn btn-primary">Upload CSV</button>
+
+    <!-- Run segmentation -->
+    <button id="runSeg" class="btn btn-success ms-auto">Run Segmentation</button>
+
+    <!-- Export CSV -->
+    <a href="/api/export/customers.csv" class="btn btn-info">Export CSV</a>
+  </div>
+
+  <div id="uploadStatus"></div>
+
+  <!-- Customer Table -->
+  <table class="table table-bordered table-striped mt-3" id="tbl">
+    <thead class="table-dark">
+      <tr>
+        <th>MSISDN</th><th>Name</th><th>Age</th><th>Gender</th>
+        <th>Region</th><th>City</th><th>Occupation</th>
+        <th>Marital</th><th>Income</th><th>Device</th>
+        <th>Hobby</th><th>Preferred App</th><th>Data Pref</th>
+        <th>Voice Pref</th><th>Churn</th><th>Action</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+</div>
+
+
+<!-- OFFER MODAL -->
+<div class="modal fade" id="offerModal" tabindex="-1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Generated Offer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body" id="offerModalBody">Loading...</div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- SEGMENTATION RESULT MODAL -->
+<div class="modal fade" id="segModal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Segmentation Result</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body" id="segModalBody">
+        <p class="text-muted">Running segmentation...</p>
+      </div>
+
+      <div class="modal-footer">
+        <a href="segments.html" class="btn btn-outline-primary">View Segments</a>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- ASSIGN OFFER MODAL (simple) -->
+<div class="modal fade" id="assignModal" tabindex="-1">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Assign Offer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <div id="assignInfo" class="mb-2"></div>
+
+        <div class="mb-2">
+          <label>Select Offer</label>
+          <select id="offerSelect" class="form-select"></select>
+        </div>
+
+        <div class="mb-2">
+          <label>Optional Notification Email</label>
+          <input id="notifyEmail" class="form-control" placeholder="customer@example.com (optional)">
+        </div>
+
+        <div id="assignStatus" class="mt-2"></div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="assignConfirmBtn" class="btn btn-success">Assign & Save Note</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+// ---------------------- LOAD CUSTOMERS ----------------------
+async function loadCustomers(){
+  let res = await fetch("/api/customers");
+  let data = await res.json();
+  let tbody = document.querySelector("#tbl tbody");
+  tbody.innerHTML = "";
+
+  data.forEach(c=>{
+    let tr = document.createElement("tr");
+
+    tr.innerHTML = `
+      <td>${c.msisdn}</td>
+      <td>${c.name || ''}</td>
+      <td>${c.age || ''}</td>
+      <td>${c.gender || ''}</td>
+      <td>${c.region || ''}</td>
+      <td>${c.city || ''}</td>
+      <td>${c.occupation || ''}</td>
+      <td>${c.marital_status || ''}</td>
+      <td>${c.income_bracket || ''}</td>
+      <td>${(c.device_brand||'') + ' ' + (c.device_type||'')}</td>
+      <td>${c.hobby || ''}</td>
+      <td>${c.preferred_app || ''}</td>
+      <td>${c.data_preference || ''}</td>
+      <td>${c.voice_preference || ''}</td>
+      <td>${c.churn_risk_score || ''}</td>
+
+      <td>
+        <button class="btn btn-sm btn-primary me-1" onclick="generateOffer(${c.id})">
+          Generate Offer
+        </button>
+
+        <button class="btn btn-sm btn-outline-success"
+                onclick="openAssignModal(${c.id}, '${c.name || ''}', '${c.msisdn || ''}')">
+          Assign Offer
+        </button>
+      </td>
+    `;
+
+    tbody.appendChild(tr);
+  });
+}
+
+
+
+// ---------------------- CSV UPLOAD ----------------------
+document.getElementById("uploadBtn").addEventListener("click", async ()=>{
+  const f = document.getElementById("csvFile").files[0];
+  if(!f){ alert("Select a CSV file first."); return; }
+
+  const text = await f.text();
+
+  const res = await fetch("/api/customers/upload", {
+    method: "POST",
+    headers: {"Content-Type":"application/json"},
+    body: JSON.stringify({csv: text})
+  });
+
+  const j = await res.json();
+
+  document.getElementById("uploadStatus").innerHTML =
+    `<div class="alert alert-info">
+       Inserted: ${j.inserted} <br>
+       Errors: ${j.errors.length}
+     </div>`;
+
+  loadCustomers();
+});
+
+
+
+// ---------------------- RUN SEGMENTATION ----------------------
+document.getElementById("runSeg").onclick = async () => {
+
+  const btn = document.getElementById("runSeg");
+  btn.disabled = true;
+  const orig = btn.innerText;
+  btn.innerText = "Running...";
+
+  try {
+    const res = await fetch("/api/segment/run", { method: "POST" });
+    const j = await res.json();
+
+    let html = `<p><strong>Status:</strong> ${j.status}</p>`;
+
+    if(j.assigned){
+      html += `<p><strong>Assigned:</strong> ${j.assigned}</p>`;
+    }
+
+    if(j.clusters){
+      html += `
+        <h6>Cluster counts</h6>
+        <table class="table table-sm table-bordered">
+          <thead><tr><th>Cluster</th><th>Count</th></tr></thead>
+          <tbody>
+      `;
+      for(const k of Object.keys(j.clusters).sort()){
+        html += `<tr><td>${k}</td><td>${j.clusters[k]}</td></tr>`;
+      }
+      html += `</tbody></table>`;
+    }
+
+    document.getElementById("segModalBody").innerHTML = html;
+
+    let segModal = new bootstrap.Modal(document.getElementById("segModal"));
+    segModal.show();
+
+    loadCustomers();
+
+  } catch(e){
+    alert("Segmentation failed: " + e);
+  } finally {
+    btn.disabled = false;
+    btn.innerText = orig;
+  }
+};
+
+
+
+// ---------------------- GENERATE OFFER ----------------------
+async function generateOffer(id){
+  let res = await fetch("/api/offers/generate",{
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body:JSON.stringify({customer_id:id})
+  });
+
+  let r = await res.json();
+
+  let html = "";
+
+  if(r.chosen_offer){
+    html += `
+      <h5>Chosen Offer</h5>
+      <table class="table table-bordered">
+        <tr><th>Code</th><td>${r.chosen_offer.code}</td></tr>
+        <tr><th>Title</th><td>${r.chosen_offer.title}</td></tr>
+        <tr><th>Score</th><td>${r.chosen_offer.score}</td></tr>
+      </table>
+    `;
+  } else {
+    html += `<div class="alert alert-warning">No matching offer found</div>`;
+  }
+
+  html += `
+    <hr>
+    <h5>Customer Aggregates</h5>
+    <table class="table table-sm table-bordered">
+      <tr><th>Avg Data (MB)</th><td>${r.aggregates.avg_data_mb}</td></tr>
+      <tr><th>Avg Calls (min)</th><td>${r.aggregates.avg_call_mins}</td></tr>
+      <tr><th>Avg SMS</th><td>${r.aggregates.avg_sms}</td></tr>
+      <tr><th>App Usage Score</th><td>${r.aggregates.avg_app_usage}</td></tr>
+    </table>
+  `;
+
+  html += `
+    <hr>
+    <h5>All Matched Offers</h5>
+    <table class="table table-bordered">
+      <thead>
+        <tr><th>Code</th><th>Title</th><th>Score</th></tr>
+      </thead><tbody>
+  `;
+
+  (r.all_matches || []).forEach(o=>{
+    html += `<tr><td>${o.code}</td><td>${o.title}</td><td>${o.score}</td></tr>`;
+  });
+
+  html += `</tbody></table>`;
+
+  document.getElementById("offerModalBody").innerHTML = html;
+
+  const modal = new bootstrap.Modal(document.getElementById("offerModal"));
+  modal.show();
+}
+
+
+
+// ---------------------- ASSIGN OFFER ----------------------
+let assignCustomerId = null;
+
+async function openAssignModal(customerId, customerName, msisdn) {
+  assignCustomerId = customerId;
+  document.getElementById("assignInfo").innerHTML =
+    `<strong>Customer:</strong> ${customerName}<br><strong>MSISDN:</strong> ${msisdn}`;
+  document.getElementById("assignStatus").innerHTML = "";
+  document.getElementById("notifyEmail").value = "";
+
+  const sel = document.getElementById("offerSelect");
+  sel.innerHTML = "<option>Loading...</option>";
+
+  try {
+    const res = await fetch("/api/offers");
+    const offers = await res.json();
+    sel.innerHTML = "";
+    offers.forEach(o=>{
+      if(o.active == 1 || o.active === true || o.active === "1") {
+        const opt = document.createElement("option");
+        opt.value = o.id;
+        opt.text = `${o.code} — ${o.title}`;
+        sel.appendChild(opt);
+      }
+    });
+    if(sel.options.length === 0)
+      sel.innerHTML = "<option>No active offers</option>";
+  } catch(e){
+    sel.innerHTML = "<option>Error loading offers</option>";
+  }
+
+  const mdl = new bootstrap.Modal(document.getElementById("assignModal"));
+  mdl.show();
+}
+
+document.getElementById("assignConfirmBtn").addEventListener("click", async ()=>{
+  const offerId = document.getElementById("offerSelect").value;
+  const email = document.getElementById("notifyEmail").value.trim();
+
+  if(!assignCustomerId || !offerId){
+    document.getElementById("assignStatus").innerHTML =
+      '<div class="alert alert-warning">Select an offer first</div>';
+    return;
+  }
+
+  document.getElementById("assignConfirmBtn").disabled = true;
+  document.getElementById("assignStatus").innerHTML = "Assigning...";
+
+  try {
+    const res = await fetch("/api/offers/assign", {
+      method: "POST",
+      headers: {"Content-Type":"application/json"},
+      body: JSON.stringify({
+        customer_id: assignCustomerId,
+        offer_id: parseInt(offerId),
+        notify_email: email
+      })
+    });
+
+    const j = await res.json();
+
+    if(res.status === 200 && j.status === "assigned"){
+      document.getElementById("assignStatus").innerHTML =
+        `<div class="alert alert-success">Assigned. Saved note: ${j.note}</div>`;
+    } else {
+      document.getElementById("assignStatus").innerHTML =
+        `<div class="alert alert-danger">Failed: ${j.error}</div>`;
+    }
+
+  } catch(e){
+    document.getElementById("assignStatus").innerHTML =
+      `<div class="alert alert-danger">${e}</div>`;
+  } finally {
+    document.getElementById("assignConfirmBtn").disabled = false;
+  }
+});
+
+
+// Load customers
+loadCustomers();
+</script>
+
+
+</body>
+</html>
